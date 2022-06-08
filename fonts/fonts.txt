@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+@font-face{
+	font-family: tangerine;
+	src:url(../fonts/Tangerine-Regular.ttf);
+}
+@font-face{
+	font-family: roboto;
+	src:url(../fonts/Roboto-Light.ttf);
+}
+@font-face{
+	font-family: satisfy;
+	src:url(../fonts/Satisfy-Regular.ttf);
+}
+@font-face{
+	font-family: nosifer;
+	src:url(../fonts/Nosifer-Regular.ttf);
+}
+@font-face{
+	font-family: greatVibes;
+	src:url(../fonts/GreatVibes-Regular.ttf);
+}

@@ -1,0 +1,87 @@
+.top{
+    height: 250px;
+    background-color: #386eb1;
+    background-image: none;
+}
+
+.top h1{
+    color: white;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 590px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+   
+}
+
+header .logo{
+    margin-left: 20px;
+}
+
+header nav.first ul li a{
+    color: white;
+}
+
+header nav.main{
+    width: 900px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 15px;
+	margin-left: 200px;
+}
+
+header nav.main ul li a{
+    color: white;
+}
+
+header nav.main ul li a.current{
+    font-weight: 600;
+}
+
+
+.user-details{
+    width: 100%;
+    min-height: 1000px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.user-details .user-box{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin-left: 670px;
+    margin-right: 670px;
+    background-color: rgb(185, 185, 185);
+    padding: 8px 3px;
+}
+
+.user-details .user-box i{
+   font-size: 120px;
+   margin-left: 20px;
+   margin-right: 20px;
+   padding: 20px;
+   color: white;
+   border-radius: 100%;
+}
+
+.courses{
+    width: 100%;
+    height: 900px;
+    border: 1px solid #bbb;
+}
+
+footer{
+	width: 100%;
+	margin-top: 1px;
+	text-align: center;
+	padding: 30px;
+	color: white;
+	font-family: tajawal;
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #386eb1;
+}
+

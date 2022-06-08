@@ -1,0 +1,140 @@
+@font-face{
+	src: url(../fonts/tangerine-regular.ttf);
+	font-family: tangerine;
+}
+
+@font-face{
+	src: url(../fonts/tajawal-regular.ttf);
+	font-family: tajawal;
+}
+
+@font-face{
+	src: url(../fonts/roboto-regular.ttf);
+	font-family: roboto;
+}
+
+@font-face{
+	src: url(../fonts/opensanscondensed-bold.ttf);
+	font-family: opensans;
+}
+
+@font-face{
+	src: url(../fonts/boogaloo-regular.ttf);
+	font-family: boogaloo;
+}
+
+@font-face{
+	src: url(../fonts/greatvibes-regular.ttf);
+	font-family: greatvibes;
+}
+
+@font-face{
+	src: url(../fonts/satisfy-regular.ttf);
+	font-family: satisfy;
+}
+
+@font-face{
+	src: url(../fonts/proximanova-regular.otf);
+	font-family: proxima-nova;
+}
+
+@font-face{
+	src: url(../fonts/lato-regular.ttf);
+	font-family: lato;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+	width: 100%;
+    margin: 0 auto;
+    background-color: #97c6ff;
+    padding: 100px 150px;
+}
+
+form{
+    width: 100%;
+    min-height: 550px;
+    font-family: lato;
+    margin: 10px auto;
+    padding: 30px 10%;
+    border-radius: 50px;
+    background-color: #fff;
+}
+fieldset{
+    width: 70%;
+    padding: 10px 30px;
+    border: 5px solid #264d7d;
+}
+
+legend{
+    font-family: tajawal;
+    color: #264d7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 2px;
+    font-family: lato;
+    border: none;
+    outline: none;
+    border: 1px solid #386eb1;
+    font-size: 15px;
+}
+
+th{
+    text-align: left;
+    font-family: proxima-nova;
+    color: #386eb1;
+}
+
+td{
+	width: 100%;
+	height: 30px;
+    margin-left: 10px;
+}
+
+input[type="submit"]{
+	width: 300px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 35%;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: lato;
+	cursor: pointer;
+	outline: none;
+	border: none;
+    outline: none;
+	color: white;
+	border: 1px solid #eee;
+	background-color: #386eb1;
+}
+select{
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 2px;
+    font-family: lato;
+    border: none;
+    outline: none;
+    border: 1px solid #386eb1;
+    font-size: 15px;
+}
+
+form select.error{
+	border: 1px solid red;
+}
+
+form input.error{
+	border: 1px solid red;
+}

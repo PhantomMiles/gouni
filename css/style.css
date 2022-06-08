@@ -1,0 +1,594 @@
+@font-face {
+    src: url(../fonts/tangerine-regular.ttf);
+    font-family: tangerine;
+}
+
+@font-face {
+    src: url(../fonts/tajawal-regular.ttf);
+    font-family: tajawal;
+}
+
+@font-face {
+    src: url(../fonts/roboto-regular.ttf);
+    font-family: roboto;
+}
+
+@font-face {
+    src: url(../fonts/opensanscondensed-bold.ttf);
+    font-family: opensans;
+}
+
+@font-face {
+    src: url(../fonts/boogaloo-regular.ttf);
+    font-family: boogaloo;
+}
+
+@font-face {
+    src: url(../fonts/greatvibes-regular.ttf);
+    font-family: greatvibes;
+}
+
+@font-face {
+    src: url(../fonts/satisfy-regular.ttf);
+    font-family: satisfy;
+}
+
+@font-face {
+    src: url(../fonts/proximanova-regular.otf);
+    font-family: proxima-nova;
+}
+
+@font-face {
+    src: url(../fonts/lato-regular.ttf);
+    font-family: lato;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    margin-top: 2px;
+    position: absolute;
+    /* border: 2px solid cyan; */
+    float: left;
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 90px;
+    height: 85px;
+    border-radius: 100%;
+    padding: 5px;
+    position: absolute;
+    /* margin-left: 20px; */
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    padding: 0 -5px;
+    position: absolute;
+    z-index: 1000;
+    /* background-color: rgb(0, 140, 255); */
+}
+
+header nav.first {
+    width: 16%;
+    float: right;
+    margin-top: 6px;
+    height: 90px;
+    padding: 20px 5px;
+    margin-left: 90px;
+    margin-right: 15px;
+}
+
+header nav.first ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav.first ul li {
+    list-style-type: none;
+    display: inline;
+    /* border-right: 1px solid white; */
+    /* margin-left: 20px; */
+}
+
+header nav.first ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: ease-in 0.2s;
+    font-family: tajawal;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+header nav.first ul li a:hover {
+    /* border-bottom: 2px solid white; */
+    border-spacing: 1px;
+    font-weight: bolder;
+    /* background-color: #FF3030; */
+}
+
+
+/* header nav.first ul li a.current{
+	/* color: #FF6A6A; 
+} */
+
+header nav.main {
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+    height: 90px;
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+header nav.main ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav.main ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 16px;
+    /* border-right: 1px solid white; */
+}
+
+header nav.main ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-right: 7px;
+    transition: ease-in 0.1s;
+    font-family: tajawal;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+header nav.main ul li:hover {
+    /* border-bottom: 2px solid white; */
+    border-spacing: 1px;
+    font-weight: bolder;
+    /* background-color: #FF3030; */
+}
+
+header nav.main ul li a i {
+    font-size: 16px;
+    display: inline;
+    margin-right: 7px;
+}
+
+header nav.main ul li a i:hover {
+    border-bottom: none;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    padding: 10px 5px;
+}
+
+.slider .slidertext {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    color: #eee;
+    font-family: tajawal;
+    font-size: 25px;
+    text-align: center;
+}
+
+.slider button {
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    padding: 20px 30px;
+    margin-top: -50px;
+    margin-left: 650px;
+    margin-right: 650px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: rgb(0, 132, 255);
+    transition: all 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+
+.slider button:hover {
+    font-weight: 600;
+    background-color: #eee;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    padding: 35px;
+    margin-left: 30px;
+    background-color: rgb(70, 215, 70);
+    border-radius: 100%;
+    position: fixed;
+    margin-top: -30px;
+}
+
+.box i {
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    margin-top: -22px;
+    margin-left: -18px;
+}
+
+section.sch-desc {
+    width: 100%;
+    min-height: 400px;
+    padding: 30px 70px;
+    background-color: aliceblue;
+}
+
+section.sch-desc h1 {
+    font-family: opensans;
+    font-size: 40px;
+    color: #2f3f50;
+    text-align: center;
+}
+
+section.sch-desc p {
+    font-family: proxima-nova;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+section.first {
+    width: 100%;
+    min-height: 600px;
+    display: inline-block;
+    padding: 30px;
+    border-bottom: 1px solid aliceblue;
+}
+
+section.first article {
+    width: 50%;
+    height: 400px;
+    padding: 40px;
+    float: left;
+    /* border-right: 2px solid rgb(0, 174, 255); */
+}
+
+section.first article h1 {
+    font-family: opensans;
+    font-size: 40px;
+    color: #2f3f50;
+}
+
+section.first article p {
+    font-family: proxima-nova;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+section.first aside {
+    width: 45%;
+    height: 400px;
+    padding: 60px 40px;
+    /* margin-top: -50px; */
+    float: right;
+    /* border-left: 2px solid rgb(0, 174, 255); */
+}
+
+section.first aside img {
+    width: 600px;
+    height: 400px;
+    padding: 10px 30px;
+}
+
+section.container {
+    width: 100%;
+    height: 700px;
+    padding: 10px 30px;
+    margin-top: -5px;
+    /* background-color: aliceblue; */
+    background-image: url(../images/homeslider.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid aliceblue;
+}
+
+section.container h1 {
+    font-family: opensans;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+section.container i {
+    text-align: center;
+    margin-left: 135px;
+    margin-right: 135px;
+    font-size: 40px;
+    color: #2f3f50;
+    margin-bottom: 20px;
+}
+
+section.container .widget {
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    box-shadow: black;
+    margin-left: 75px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.container .widget h2 {
+    text-align: center;
+    font-family: tajawal;
+    font-weight: bolder;
+    color: #2f3f50;
+    ;
+}
+
+section.container .widget p {
+    font-family: proxima-nova;
+    font-size: 18px;
+}
+
+.modal-content table {
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 500px;
+}
+
+.modal-content table tr th {
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.modal-content table tr td {
+    width: 50%;
+    height: 90px;
+    padding: 0 30px;
+}
+
+footer {
+    width: 100%;
+    margin-top: -4px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: tajawal;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #386eb1;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    /*overflow: auto;  Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 400px;
+    /* 15% from the top and centered */
+    padding: 0 30px;
+    border: 1px solid #888;
+    height: 800px;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+.modal-content form {
+    width: 95%;
+    height: 650px;
+    padding: 15px 30px;
+}
+
+.staff table {
+    width: 100%;
+    height: 100px;
+}
+
+.staff table tr {
+    width: 100%;
+    height: 20px;
+    padding: 0 20px;
+    border: 2px solid dodgerblue;
+}
+
+.staff table th {
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    /* color: dodgerblue; */
+    font-family: proxima-nova;
+    /* border: 2px solid dodgerblue; */
+}
+
+.staff table td {
+    width: 100%;
+    height: 30px;
+    padding: 0;
+}
+
+.staff button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    display: inline-table;
+    margin: 20px 480px 20px 680px;
+    font-family: proxima-nova;
+    border: none;
+    outline: none;
+    border: 1px solid #2e5b91;
+    color: white;
+    transition: ease-in 0.5s;
+    background-color: #2171d2;
+}
+
+.staff button:hover {
+    background-color: whitesmoke;
+    color: #2171d2;
+    font-weight: bold;
+}
+
+.modal-content input {
+    width: 420px;
+    height: 30px;
+    padding: 20px;
+    margin-left: 80px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima-nova;
+}
+
+.modal-content input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    padding: 15px 0 30px;
+    margin-top: 50px;
+    margin-left: 170px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: proxima-nova;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    border: 1px solid #eee;
+    background-color: #386eb1;
+}
+
+.cp_link:hover {
+    color: darkblue;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smodal {
+    display: none;
+    /* Hidden by default */
+    position: relative;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 10px;
+    width: 1000px;
+    /* Full width */
+    height: 80px;
+    /* Full height */
+    /*overflow: auto;  Enable scroll if needed */
+    /*background-color: rgb(0,0,0);  Fallback color */
+    /*background-color: rgba(0,0,0,0.1);  Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.smodal-content {
+    margin: 0 30px;
+    /* 15% from the top and centered */
+    padding: 0 30px;
+    /* border: 1px solid #888; */
+    height: 80px;
+    width: 75%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* .smodal-content form{
+	width: 95%;
+	height: 650px;
+	padding: 0 30px;
+} */
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: -10;
+    width: 100%;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 102px;
+}
