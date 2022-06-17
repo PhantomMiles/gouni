@@ -1,10 +1,10 @@
-.top{
+.top {
     height: 250px;
     background-color: #386eb1;
     background-image: none;
 }
 
-.top h1{
+.top h1 {
     color: white;
     margin-top: 180px;
     position: absolute;
@@ -12,35 +12,34 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 40px;
-   
 }
 
-header .logo{
+header .logo {
     margin-left: 20px;
 }
 
-header nav.first ul li a{
+header nav.first ul li a {
     color: white;
 }
 
-header nav.main{
+header nav.main {
     width: 900px;
     height: 50px;
     float: left;
     margin-top: 20px;
     padding: 10px 15px;
-	margin-left: 200px;
+    margin-left: 200px;
 }
 
-header nav.main ul li a{
+header nav.main ul li a {
     color: white;
 }
 
-header nav.main ul li a.current{
+header nav.main ul li a.current {
     font-weight: 600;
 }
 
-.desc{
+.desc {
     width: 100%;
     height: 700px;
     padding: 30px;
@@ -49,34 +48,34 @@ header nav.main ul li a.current{
     background-color: aliceblue;
 }
 
-.desc article{
+.desc article {
     width: 50%;
     float: left;
     height: inherit;
-    padding: 90px 30px 0;
+    padding: 90px 30px 90px;
 }
 
-.desc article img{
+.desc article img {
     width: 300px;
-    height: 220px;
-    display: inline;
+    height: 200px;
+    display: inline-block;
 }
 
-.desc aside{
+.desc aside {
     width: 50%;
     float: right;
     height: inherit;
     padding: 40px;
 }
 
-.desc aside h1{
+.desc aside h1 {
     font-family: roboto;
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
 
-.desc aside p{
+.desc aside p {
     font-family: lato;
     font-weight: normal;
     line-height: 1.6em;
@@ -84,40 +83,40 @@ header nav.main ul li a.current{
     word-wrap: normal;
 }
 
-.box{
-	width: 40px;
-	height: 40px;
-	padding: 40px;
-	margin-left: 30px;
-	background-color: limegreen;
-	border-radius: 100%;
-	position: fixed;
-	margin-top: 400px;
+.box {
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    margin-left: 30px;
+    background-color: limegreen;
+    border-radius: 100%;
+    position: fixed;
+    margin-top: 400px;
 }
 
-.box i{
-	color: white;
-	font-size: 45px;
-	text-align: center;
-	margin-top: -22px;
-	margin-left: -20px;
+.box i {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -22px;
+    margin-left: -20px;
 }
 
-.achievements{
+.achievements {
     width: 100%;
     max-height: 650px;
     padding: 30px 50px;
     background-color: ghostwhite;
 }
 
-.achievements h1{
+.achievements h1 {
     font-family: roboto;
     text-decoration: underline;
     text-align: center;
     font-size: 40px;
 }
 
-.achievements p{
+.achievements p {
     font-family: lato;
     font-weight: normal;
     line-height: 1.6em;
@@ -125,21 +124,21 @@ header nav.main ul li a.current{
     word-wrap: normal;
 }
 
-.pp{
+.pp {
     width: 100%;
     max-height: 650px;
     padding: 30px 50px;
     background-color: aliceblue;
 }
 
-.pp h1{
+.pp h1 {
     font-family: roboto;
     text-decoration: underline;
     text-align: center;
     font-size: 40px;
 }
 
-.pp p{
+.pp p {
     font-family: lato;
     font-weight: normal;
     line-height: 1.6em;
@@ -147,22 +146,21 @@ header nav.main ul li a.current{
     word-wrap: normal;
 }
 
-
-.pmnt-st{
+.pmnt-st {
     width: 100%;
     max-height: 650px;
     padding: 30px 50px;
     background-color: ghostwhite;
 }
 
-.pmnt-st h1{
+.pmnt-st h1 {
     font-family: roboto;
     text-decoration: underline;
     text-align: center;
     font-size: 40px;
 }
 
-.pmnt-st p{
+.pmnt-st p {
     font-family: lato;
     font-weight: normal;
     line-height: 1.6em;

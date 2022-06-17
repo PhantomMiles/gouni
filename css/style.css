@@ -57,7 +57,10 @@ body {
     height: 650px;
     background-image: url(../images/slider1.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-color: rgba(28, 106, 174, 0.75);
+    background-blend-mode: darken;
     background-attachment: fixed;
 }
 
@@ -91,12 +94,12 @@ header {
 }
 
 header nav.first {
-    width: 16%;
+    width: 20%;
     float: right;
     margin-top: 6px;
     height: 90px;
     padding: 20px 5px;
-    margin-left: 90px;
+    margin-left: 70px;
     margin-right: 15px;
 }
 
@@ -196,6 +199,7 @@ header nav.main ul li a i:hover {
     width: 100%;
     height: 150px;
     position: relative;
+    text-shadow: 2px 2px 5px black;
     color: #eee;
     font-family: tajawal;
     font-size: 25px;
@@ -263,6 +267,14 @@ section.sch-desc p {
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
+    padding: 0 30px;
+}
+
+section.sch-desc ul li {
+    font-family: proxima-nova;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
 }
 
 section.first {
@@ -319,6 +331,9 @@ section.container {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    background-blend-mode: darken;
     border-bottom: 1px solid aliceblue;
 }
 
@@ -341,11 +356,12 @@ section.container i {
 }
 
 section.container .widget {
-    width: 400px;
+    width: 380px;
     height: 550px;
     background-color: white;
     box-shadow: black;
-    margin-left: 75px;
+    margin-left: 45px;
+    margin-right: 25px;
     padding: 30px 40px;
     border-radius: 5px;
     display: inline-block;
@@ -469,8 +485,8 @@ footer {
     font-size: 20px;
     cursor: pointer;
     border-radius: 100px;
-    display: inline-table;
-    margin: 20px 480px 20px 680px;
+    display: block;
+    margin: 20px 480px 20px 600px;
     font-family: proxima-nova;
     border: none;
     outline: none;

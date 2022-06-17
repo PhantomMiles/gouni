@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Godfrey Okoye University: Unity in Knowledge</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="image" type="logo" href="logo.jpg">
+    <link rel="icon" type="images/jpg" href="images/logo.jpg">
     <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="top" data-slider>
         <header id="myHeader">
             <div class="logo">
-                <a href="index.php"><img src="logo.jpg" alt="logo"></a>
+                <a href="index.php"><img src="images/logo.jpg" alt="logo"></a>
             </div>
             <nav class="first" id="nav1">
                 <ul data-nav>
@@ -52,6 +54,7 @@
 
             <div class="slidertext">
                 <h1 style="margin-top: 200px; margin-bottom: 20px;">God's Own University On The Go!</h1>
+                <h2>Make Godfrey Okoye University your 1st Choice.</h3>
             </div>
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -95,6 +98,29 @@
     <section class="sch-desc">
         <h1>Why Choose G.O.U?</h1>
         <p>Godfrey Okoye University has a reputation of having a well structured academic having well-structured academic programmes with highly qualifies staff and integration of learning with character formation. Our state of the art facilities, friendly staff and tutoring services, make this university an ideal place for any person to study. The calendar of the university is fast and students can easily finish their programmes the exact time they are to finish. No strikes whatsoever. Our university also has a religious environment that help in nurturing and preserving our students moral and spiritual lives to the fullest,thus helping them to become more respectful and well-mannered citizens of the country.</p>
+        <h1>Accreditation</h1>
+        <p>The university received its operational licence from the National Universities Commission (NUC) in 2009, and so commenced full academic activities in the 2009/2010 academic session with two faculties and with 214 students. Currently, it offers undergraduate programmes in five faculties: Arts, Education, Law, Management and Social Sciences, Natural and Applied Sciences. All the programmes have NUC accreditation. The university’s law faculty also has the approval of the Legal Council of Education. The university also runs postgraduate programmes in Education, Management and Social Sciences, Natural and Applied Sciences. The university is committed especially to values that enable the achievment of academic excellence, integration of learning and character, religious, cultural and epistemological dialogue, ready access to prayers and blessings, availability of highly qualified staff, training of employable graduates, exchange programmes with foreign partner univesities, elaborate mentorship programme, serene and cult-free environment and respect for individuals of varies background. The university has produced sets of graduates who were all successfully mobilized for the National Youth Service Corps (NYSC) scheme in their year of graduation. Godfrey Okoye  university Enugu is rightly called God’s own university. Within less than ten years, it has admitted more than three thousand students and will soon transfer some of its faculties to the permanent site at Ugwuomu-Nike Enugu.</p>
+        <h1>Our International Partners</h1>
+        <ul>
+            <li>UNIVERSITY OF STELLENBOSCH BUSINESS SCHOOL</li>
+            <li>WEST ALISCHE WILHELMS-UNIVERSITAT</li> 
+            <li>MUNSTER</li> 
+            <li>BIRMINGHAM CITY UNIVERSITY</li> 
+            <li>BOWIE STATE UNIVERSITY</li> 
+            <li>TECHNOLOGY ARTS SCIENCES TH KOLN</li> 
+            <li>GUSTAV SIEWERTN ARADEMIE</li> 
+            <li>PRIVATE PADAGOGISCHE HOCHSCHULE</li> 
+            <li>DER DIOZ</li> 
+            <li>UNIVERSITAT INNSBRUCK</li> 
+            <li>JOHANNES KEPLER UNIVERSITAT LINZ</li> 
+            <li>PONTIFICAL UNIVERSITAS LATERANENSIS</li> 
+            <li>COLD SPRING HARBOR LABORATORY</li> 
+            <li>GLOBETHICS</li> 
+            <li>MEDIZINISCHE UNIVERSITAT INNSBRUCK</li> 
+            <li>RHEMISCHE FRIEDRICH WILHELMS UNIVERSTITAT BONN</li> 
+            <li>AFRICA UNINET</li> 
+            <li>UNIVERSITY OF BAYREUTH</li> 
+        </ul>
     </section>
     <section class="first">
         <article>
@@ -127,24 +153,24 @@
 
     <section class="staff">
         <h1 style="text-align: center; font-family: opensans; font-size: 40px;">OUR STAFF</h1>
-        <table>
+        <table cellspacing="5">
             <tr>
                 <th>
-                    <img src="images/prof.jpg" style="width: 200px; height: 250px; border-radius: 100%; margin-left: 500px;" alt="">
-                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-left: 500px;">Rev. Fr. Prof. Dr. Christian Anieke</h2>
-                    <h3 style="font-family: proxima-nova; color: #2f3f50; margin-left: 500px;">Founder & Vice Chancellor</h3>
+                    <img src="images/prof.jpg" style="width: 200px; height: 250px; border-radius: 100%; margin-left: 400px;" alt="">
+                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-left: 400px;">Rev. Fr. Prof. Dr. Christian Anieke</h2>
+                    <h3 style="font-family: proxima-nova; color: #2f3f50; margin-left: 400px;">Founder & Vice Chancellor</h3>
                 </th>
             </tr>
             <tr>
                 <td>
-                    <img src="images/dvc.png" style="width: 200px; height: 250px; border-radius: 100%; margin-left: 300px;" alt="">
-                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-right: 300px; text-align: center;">Rev. Sr. Prof. MarySylvia Nwachukwu</h2>
-                    <h3 style="font-family: proxima-nova; color: #2f3f50; margin-right: 300px; text-align: center;">Deputy Vice Chancellor</h3>
+                    <img src="images/dvc.png" style="width: 200px; height: 250px; border-radius: 100%; margin-left: 150px;" alt="">
+                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-right: 450px; text-align: center;">Rev. Sr. Prof. MarySylvia Nwachukwu</h2>
+                    <h3 style="font-family: proxima-nova; color: #2f3f50; margin-right: 450px; text-align: center;">Deputy Vice Chancellor</h3>
                 </td>
                 <td>
-                    <img src="images/registrar.jpg" style="width: 200px; height: 250px; border-radius: 100%;  margin-right: 300px;" alt="">
-                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-right: 280px; text-align: center;">Dr. Nnamdi N. S. Ene</h2>
-                    <h3 style="font-family: proxima-nova; color: #2f3f50;margin-right: 300px; text-align: center;">Registrar</h3>
+                    <img src="images/registrar.jpg" style="width: 200px; height: 250px; border-radius: 100%;  margin-right: 180px;" alt="">
+                    <h2 style="font-family: proxima-nova; color: #2f3f50; margin-right: 150px; text-align: center;">Dr. Nnamdi N. S. Ene</h2>
+                    <h3 style="font-family: proxima-nova; color: #2f3f50;margin-right: 200px; text-align: center;">Registrar</h3>
                 </td>
             </tr>
         </table>

@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Godfrey Okoye University Online-learning</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>About Godfrey Okoye University </title>
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="image" type="logo" href="logo.jpg">
+    <link rel="icon" type="images/jpg" href="images/logo.jpg">
     <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -87,9 +89,9 @@
     <section class="desc">
         <article>
             <img src="images/GOU1.jpeg" alt="">
-            <img src="images/img1.jpeg" alt="" style="width: 320px; margin-left: 20px;">
+            <img src="images/img1.jpeg" alt="" style="width: 300px; margin-left: 10px;">
             <img src="images/Home-slider-Mix3.jpg" alt="" style="margin: 30px 0;">
-            <img src="images/GOU2.jpg" alt="" style="width: 320px; margin: 30px 20px;">
+            <img src="images/GOU2.jpg" alt="" style="width: 300px; margin: 30px 10px;">
         </article>
         <aside>
             <h1>Our Story</h1>
