@@ -1,23 +1,24 @@
 {
-  "name": "gou",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PhantomMiles/gouni.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PhantomMiles/gouni/issues"
-  },
-  "homepage": "https://github.com/PhantomMiles/gouni#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.1.4"
-  }
+    "name": "gou",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i ./input.css -o ./css/main.css",
+        "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PhantomMiles/gouni.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PhantomMiles/gouni/issues"
+    },
+    "homepage": "https://github.com/PhantomMiles/gouni#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.1.4"
+    }
 }
