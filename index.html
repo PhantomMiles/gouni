@@ -6,13 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="icon" type="img/png" href="img/logo2.png">
     <title>Godfrey Okoye University - Unity of Knowledge</title>
 </head>
 
 <body>
-    <div class="flex flex-col mx-auto p-6 bg-aqua w-full"></div>
+    <!-- Other info -->
+    <div class="flex flex-col mx-auto py-6 px-auto bg-brightBlue justify-between">
 
+    </div>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto px-3">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <img src="img/logo2.png" class="h-20 w-25" alt="" />
+            </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-5 md:flex">
+                <a href="index.html" class="hover:text-blueGray font-bold">Home</a>
+                <a href="events.html" class="hover:text-blueGray font-bold">Events</a>
+                <a href="news.html" class="hover:text-blueGray font-bold">News</a>
+                <a href="about.html" class="hover:text-blueGray font-bold">About</a>
+                <a href="archive.html" class="hover:text-blueGray font-bold">Archive</a>
+                <a href="courses.html" class="hover:text-blueGray font-bold">Courses</a>
+                <a href="forum.html" class="hover:text-blueGray font-bold">Forums</a>
+                <a href="faq.html" class="hover:text-blueGray font-bold">FAQs</a>
+            </div>
+            <!-- Button -->
+            <a href="reg.php" class="p-3 px-6 pt-3 text-white font-bold bg-brightBlue rounded-full baseline hover:bg-skyBlue sm:p-1 sm:px-3 sm:pt-1/2 sm:block md:block ">SIGN UP</a>
+            <!-- <a href="account.php " class="hidden p-3 px-1 pt-3 md:block "></a> -->
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn " class="block hamburger md:hidden focus:outline-none ">
+                <span class="hamburger-top "></span>
+                <span class="hamburger-middle "></span>
+                <span class="hamburger-bottom "></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden ">
+            <div id="menu " class="absolute flex-col items-center hidden self-end py-8 mt-5 space-y-6 font-bold bg-white sm:w-25 sm:self-center left-6 right-6 drop-shadow-md ">
+                <a href="index.html " class="hover:text-blueGray font-bold ">Home</a>
+                <a href="events.html " class="hover:text-blueGray font-bold ">Events</a>
+                <a href="news.html " class="hover:text-blueGray font-bold ">News</a>
+                <a href="about.html " class="hover:text-blueGray font-bold ">About</a>
+                <a href="archive.html " class="hover:text-blueGray font-bold ">Archive</a>
+                <a href="courses.html " class="hover:text-blueGray font-bold ">Courses</a>
+                <a href="forum.html " class="hover:text-blueGray font-bold ">Forums</a>
+                <a href="faq.html " class="hover:text-blueGray font-bold ">FAQs</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero ">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-20 space-y-0 md:space-y-0 md:flex-row ">
+            <!-- left item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2 ">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left ">
+                    ADMISSIONS FOR THE CURRENT SESSION ARE ON!
+                </h1>
+                <p class="max-w-sm text-center text-blueGray md:text-left ">Are you looking for University Education without school fees? Then join Godfrey Okoye University, Enugu and educate yourself free through Godfrey Okoye University Scholarship Scheme. Make Godfrey Okoye University your first choice today.
+                </p>
+                <div class="flex justify-center md:justify-start ">
+                    <a href="admission.php " class="hidden p-3 px-6 pt-3 text-white font-bold bg-brightBlue rounded-full baseline hover:bg-skyBlue md:block ">APPLY NOW</a>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="md:w-1/2 mb-30 ">
+                <img src="img/E-learning.png " alt=" " />
+            </div>
+        </div>
+    </section>
+
+    <!-- Description -->
+    <section id="desc ">
+
+    </section>
+    <script src="js/script.js "></script>
 </body>
 
 </html>
