@@ -938,7 +938,7 @@ p {
 
 .sticky {
   position: fixed;
-  top: -10;
+  /* top: 10; */
   margin-top: -65px;
   width: 100%;
 }
