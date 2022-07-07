@@ -13,7 +13,7 @@
 
 <body>
     <!-- Other info -->
-    <div class="flex flex-col mx-auto py-3 px-auto bg-brightBlue justify-between">
+    <div class="flex flex-col w-full mx-auto py-3 px-auto bg-brightBlue justify-between">
         <div class="flex w-1/2 flex-row mx-auto justify-between items-center">
             <div class="space-x-6 hidden md:flex">
                 <h4 class="max-w-1 -ml-80 text-center text-white md:text-left">
@@ -96,7 +96,7 @@
             </div>
             <!-- Image -->
             <div class="md:max-w-md py-1 px-5">
-                <img src="img/E-learning.png" class="sm:max-w-sm sm:mb-2 md:max-w-2xl -mt-20" alt="" />
+                <img src="img/E-learning.png" class="sm:max-w-sm sm:mb-2 sm:-mt-20 md:-ml-10 md:max-w-[600px] md:-mt-40" alt="" />
             </div>
         </div>
     </section>
@@ -153,6 +153,58 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+        <!-- Flex container -->
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; 2022, All Rights Reserved</div>
+                <!-- Logo -->
+                <div>
+                    <img src="img/logo-white.svg" alt="" class="h-8">
+                </div>
+                <!-- Social lInks container -->
+                <div class="flex justify-center space-x-4">
+                    <!-- Link 1 -->
+                    <a href="#"><img src="img/icon-facebook.svg" alt="" class="h-8"></a>
+                    <!-- Link 2 -->
+                    <a href="#"><img src="img/icon-youtube.svg" alt="" class="h-8"></a>
+                    <!-- Link 3 -->
+                    <a href="#"><img src="img/icon-twitter.svg" alt="" class="h-8"></a>
+                    <!-- Link 4 -->
+                    <a href="#"><img src="img/icon-pinterest.svg" alt="" class="h-8"></a>
+                    <!-- Link 5 -->
+                    <a href="#"><img src="img/icon-instagram.svg" alt="" class="h-8"></a>
+                </div>
+            </div>
+            <!-- List container -->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">Home</a>
+                    <a href="#" class="hover:text-brightRed">Pricing</a>
+                    <a href="#" class="hover:text-brightRed">Product</a>
+                    <a href="#" class="hover:text-brightRed">About</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="#" class="hover:text-brightRed">Careers</a>
+                    <a href="#" class="hover:text-brightRed">Community</a>
+                    <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+                </div>
+            </div>
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form action="">
+                    <div class="flex space-x-3">
+                        <input type="text" name="" id="" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Updated in your inbox"> <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline:none">Go</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block">Copyright &copy; 2022, All Rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 

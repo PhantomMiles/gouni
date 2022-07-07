@@ -56,6 +56,7 @@ module.exports = {
                 ultramarine: 'rgb(4, 55, 242)',
                 verdigris: 'rgb(64, 181, 173)',
                 zaffre: '#0818A8',
+                veryDarkBlue: 'hsl(233, 12%, 13%)',
 
                 almond: '#EADDCA',
                 brass: '#E1C16E',
