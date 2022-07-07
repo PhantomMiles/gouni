@@ -639,10 +639,6 @@ video {
   margin-top: 6rem;
 }
 
-.-mt-14 {
-  margin-top: -3.5rem;
-}
-
 .block {
   display: block;
 }
@@ -671,10 +667,6 @@ video {
   width: 500px;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
 .max-w-\[100\%\] {
   max-width: 100%;
 }
@@ -687,10 +679,6 @@ video {
   max-width: 24rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -701,10 +689,6 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-center {
@@ -777,11 +761,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-lightGray {
-  --tw-bg-opacity: 1;
-  background-color: rgb(211 211 211 / var(--tw-bg-opacity));
-}
-
 .p-3 {
   padding: 0.75rem;
 }
@@ -847,14 +826,9 @@ video {
   line-height: 2.5rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -866,9 +840,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-darkBlue {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 139 / var(--tw-text-opacity));
+}
+
 .text-blueGray {
   --tw-text-opacity: 1;
   color: rgb(115 147 179 / var(--tw-text-opacity));
+}
+
+.text-lightBlue {
+  --tw-text-opacity: 1;
+  color: rgb(173 216 230 / var(--tw-text-opacity));
 }
 
 .drop-shadow-md {
@@ -897,7 +881,7 @@ p {
 }
 
 #signUp,
-#apply {
+    #apply {
   transition: all 0.25s;
 }
 
@@ -912,8 +896,8 @@ p {
 }
 
 .hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
+    .hamburger-middle,
+    .hamburger-bottom {
   position: absolute;
   top: 0;
   left: 0;
@@ -959,60 +943,39 @@ p {
   width: 100%;
 }
 
+@media (min-width:480px), (max-width:640px) {
+  .sticky {
+    margin-top: -30px;
+  }
+
+  #desc .flex.flex-col.items-center {
+    margin-top: 20px;
+  }
+}
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 
 .sticky+.content {
   padding-top: 102px;
 }
 
+#desc {
+  background-image: url(../img/GOU3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+
+#desc .flex.flex-col.items-center {
+  border: 2px solid #E5E4E2;
+}
+
 .hover\:bg-skyBlue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(135 206 235 / var(--tw-bg-opacity));
-}
-
-.hover\:text-darkBlue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 139 / var(--tw-text-opacity));
-}
-
-.hover\:text-blueGray:hover {
-  --tw-text-opacity: 1;
-  color: rgb(115 147 179 / var(--tw-text-opacity));
-}
-
-.hover\:text-steelBlue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(70 130 180 / var(--tw-text-opacity));
-}
-
-.hover\:text-cornflowerBlue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(100 149 237 / var(--tw-text-opacity));
-}
-
-.hover\:text-alabaster:hover {
-  --tw-text-opacity: 1;
-  color: rgb(237 234 222 / var(--tw-text-opacity));
-}
-
-.hover\:text-beige:hover {
-  --tw-text-opacity: 1;
-  color: rgb(245 245 220 / var(--tw-text-opacity));
-}
-
-.hover\:text-linen:hover {
-  --tw-text-opacity: 1;
-  color: rgb(233 220 201 / var(--tw-text-opacity));
-}
-
-.hover\:text-silver:hover {
-  --tw-text-opacity: 1;
-  color: rgb(192 192 192 / var(--tw-text-opacity));
-}
-
-.hover\:text-ashGray:hover {
-  --tw-text-opacity: 1;
-  color: rgb(178 190 181 / var(--tw-text-opacity));
 }
 
 .hover\:text-platinum:hover {
@@ -1062,10 +1025,6 @@ p {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-1\/3 {
-    width: 33.333333%;
   }
 
   .md\:max-w-md {
