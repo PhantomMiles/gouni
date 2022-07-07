@@ -1,28 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-    font-family: proxima-nova;
-    src: url(fonts/ProximaNova-Regular.otf);
-}
-
-@font-face {
-    font-family: lato;
-    src: url(fonts/Lato-Regular.ttf);
-}
-
-@font-face {
-    font-family: tajawal;
-    src: url(fonts/Tajawal-Regular.ttf);
-}
-
-@font-face {
-    font-family: opensans;
-    src: url(fonts/OpenSans-ExtraBold.ttf);
-}
-
 body {
-    font-family: lato;
+    font-family: noto sans jp;
     /* background-image: url('../img/E-learning.png');
     background-repeat: no-repeat;
     background-size: 900px;
@@ -31,8 +11,19 @@ body {
 
 a {
     outline: none;
-    font-family: tajawal;
+    padding: 10px;
+    border-radius: 10px;
     text-transform: uppercase;
+    transition: all 0.25s;
+}
+
+p {
+    font-family: lato;
+}
+
+#signUp,
+#apply {
+    transition: all 0.25s;
 }
 
 
@@ -54,7 +45,7 @@ a {
     left: 0;
     width: 24px;
     height: 4px;
-    border-radius: 20px;
+    border-radius: 15px;
     background: #000;
     transform: rotate(0);
     transition: all 0.5s;
@@ -83,4 +74,21 @@ a {
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: -10;
+    margin-top: -65px;
+    width: 100%;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 102px;
 }
