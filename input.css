@@ -77,18 +77,24 @@
     
     .sticky {
         position: fixed;
-        /* top: 10; */
-        margin-top: -65px;
+        top: -10;
         width: 100%;
     }
     
-    @media (min-width:480px),
-    (max-width:640px) {
+    @media (min-device-width: 0px),
+    (max-device-width: 640px) {
         .sticky {
             margin-top: -30px;
         }
         #desc .flex.flex-col.items-center {
             margin-top: 20px;
+        }
+    }
+    
+    @media (min-width: 768px),
+    (max-width: 1440px) {
+        .sticky {
+            margin-top: -60px;
         }
     }
     /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
