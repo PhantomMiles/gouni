@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: 900px;
     background-position: 10% -30%; */
+        background-color: i;
     }
     
     a {
@@ -17,8 +18,20 @@
         transition: all 0.25s;
     }
     
+    button.px-6 {
+        transition: all 0.25s;
+    }
+    
     p {
         font-family: lato;
+    }
+    
+    input#srch {
+        border: 2px solid #B2BEB5;
+    }
+    
+    ul#tel {
+        list-style-type: square;
     }
     
     #signUp,
@@ -90,13 +103,12 @@
             margin-top: 20px;
         }
     }
-    
-    @media (min-width: 768px),
+    /* @media (min-width: 768px),
     (max-width: 1440px) {
         .sticky {
             margin-top: -60px;
         }
-    }
+    } */
     /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
     
     .sticky+.content {
