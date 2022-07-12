@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    font-family: noto sans jp;
-    background-image: url('img/E-learning.png');
+    font-family: philosopher;
+    background-image: url('../img/E-learning.png');
     background-repeat: no-repeat;
-    background-size: 900px;
-    background-position: -10%;
+    background-size: 1200px;
+    background-position: 10% -5%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(43, 43, 43, 0.59);
+}
+
+#ex-prog {
+    background-color: white;
 }
 
 #nav a {
@@ -20,6 +27,12 @@ body {
 #menu,
 #nav2 a {
     text-transform: uppercase;
+    font-family: noto sans jp;
+}
+
+#nav,
+a {
+    font-family: noto sans jp;
 }
 
 #menu a {
