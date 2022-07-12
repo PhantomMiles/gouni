@@ -21,7 +21,7 @@ var sticky = header.offsetTop;
 function myFunction() {
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
-        header.style.backgroundColor = "#EEE";
+        header.style.backgroundColor = "rgba(226, 226, 226, 0.889)";
         // header.style.marginTop = "10px";
         header.style.transition = "ease-in 0.2s";
 
