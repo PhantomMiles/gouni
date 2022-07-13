@@ -1157,6 +1157,11 @@ ul#tel {
   outline-offset: 2px;
 }
 
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 480px) {
   .sm\:mb-2 {
     margin-bottom: 0.5rem;
