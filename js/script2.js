@@ -27,7 +27,6 @@ function myFunction() {
 
     } else {
         header.classList.remove("sticky");
-        header.style.backgroundColor = "transparent";
-
+        header.style.backgroundColor = "#4169E1";
     }
 }

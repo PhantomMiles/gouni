@@ -3,19 +3,19 @@ module.exports = {
     content: ["./*.{html,js}"],
     theme: {
         screens: {
-            'sm': {'min': '640px', 'max': '767px'},
-            // => @media (min-width: 640px and max-width: 767px) { ... }
-      
-            'md': {'min': '768px', 'max': '1023px'},
-            // => @media (min-width: 768px and max-width: 1023px) { ... }
-      
-            'lg': {'min': '1024px', 'max': '1279px'},
-            // => @media (min-width: 1024px and max-width: 1279px) { ... }
-      
-            'xl': {'min': '1280px', 'max': '1535px'},
-            // => @media (min-width: 1280px and max-width: 1535px) { ... }
-      
-            '2xl': {'min': '1536px'},
+            'sm': '640px',
+            // => @media (min-width: 640px) { ... }
+
+            'md': '768px',
+            // => @media (min-width: 768px) { ... }
+
+            'lg': '1024px',
+            // => @media (min-width: 1024px) { ... }
+
+            'xl': '1280px',
+            // => @media (min-width: 1280px) { ... }
+
+            '2xl': '1536px',
             // => @media (min-width: 1536px) { ... }
             '3xl': '1600px',
         },
@@ -44,6 +44,7 @@ module.exports = {
                 cyan: 'rgb(0, 255, 255)',
                 darkBlue: 'rgb(0, 0, 139)',
                 denim: '#6F8FAF',
+                dodgerBlue: '#1E90FF',
                 egyptianBlue: 'rgb(20, 52, 164)',
                 electricBlue: '#7DF9FF',
                 glaucous: 'rgb(96, 130, 182)',
@@ -61,9 +62,14 @@ module.exports = {
                 sapphireBlue: '#0F52BA',
                 seafoamGreen: 'rgb(159, 226, 191)',
                 skyBlue: '#87CEEB',
-                steelBlue: 'rgb(70, 130, 180)',
+                lightSkyBlue: '#87CEFA',
+                deepSkyBlue: '#00BFFF',
+                mediumSlateBlue: '#7B68EE',
+                steelBlue: '#4682B4',
+                lightSteelBlue: '#B0C4DE',
                 teal: '#008080',
-                turquoise: 'rgb(64, 224, 208)',
+                turquoise: '#40E0D0',
+                mediumTurquoise: '#48D1CC',
                 ultramarine: 'rgb(4, 55, 242)',
                 verdigris: 'rgb(64, 181, 173)',
                 zaffre: '#0818A8',
