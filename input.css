@@ -3,13 +3,13 @@
 @tailwind utilities;
 body {
     font-family: philosopher;
-    background-image: url('../img/E-learning.png');
+    /* background-image: url('../img/E-learning.png');
     background-repeat: no-repeat;
     background-size: 1200px;
     background-position: 10% -5%;
     background-attachment: fixed;
     background-blend-mode: darken;
-    background-color: rgba(43, 43, 43, 0.59);
+    background-color: rgba(43, 43, 43, 0.59); */
 }
 
 #ex-prog {
