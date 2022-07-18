@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-    font-family: philosopher;
+    font-family: pt sans;
     /* background-image: url('../img/E-learning.png');
     background-repeat: no-repeat;
     background-size: 1200px;
@@ -32,8 +32,7 @@ body {
 
 #nav,
 a {
-    font-family: tajawal;
-    font-weight: bolder;
+    /* font-family: proxima nova alt; */
     transition: all 0.25s;
 }
 
@@ -66,9 +65,9 @@ ul#tel {
 #apply {
     transition: all 0.25s;
 }
-#t-1,
-#t-2 {
-    font-family: pt sans;
+#t-1 h1,
+h5 {
+    font-family: proxima nova;
 }
 
 
@@ -128,8 +127,12 @@ ul#tel {
     height: 600px;
     background-attachment: fixed;
     background-blend-mode: darken;
-    background-color: rgba(28, 28, 28, 0.715); 
+    background-color: rgba(0, 0, 0, 0.774); 
     background-position: center;
+}
+
+#tst-1{
+    margin-top: 130px;
 }
 
 
@@ -160,7 +163,10 @@ ul#tel {
         cursor: none;
     }
 }
-h1{font-family: tajawal;}
+h1
+{
+    font-family: tajawal;
+}
 
 
 
@@ -185,7 +191,7 @@ h1{font-family: tajawal;}
     padding: 10px 0 30px;
     background-attachment: fixed;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.59);
+    background-color: rgba(0, 0, 0, 0.747);
 }
 
 #desc .flex.flex-col.items-center {
@@ -193,8 +199,8 @@ h1{font-family: tajawal;}
 }
 
 #desc .flex.flex-col.items-center:hover {
-    background-color: #2e2e2ec9;
+    background-color: #71797E;
     transition: all 0.5s;
     cursor: pointer;
-    box-shadow: 0px 3px 5px black;
+    box-shadow: 0px 10px 5px #040425 ;
 }
