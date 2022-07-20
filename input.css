@@ -27,13 +27,13 @@ body {
 #menu,
 #nav2 a {
     text-transform: uppercase;
-    font-family: noto sans jp;
 }
 
 #nav,
 a {
     /* font-family: proxima nova alt; */
     transition: all 0.25s;
+    font-family: noto sans jp;
 }
 
 #menu a {
