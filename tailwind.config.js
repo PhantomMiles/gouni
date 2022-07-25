@@ -31,7 +31,11 @@ module.exports = {
                 midnightBlue: '#191970',
                 onyx: '#353935',
 
+<<<<<<< HEAD
                 aqua: '#00FFFF',
+=======
+                aqua: 'rgb(0, 255, 255)',
+>>>>>>> ebc6872fa8236f622ada0684ed2d756605f9bf29
                 azure: '#F0FFFF',
                 babyBlue: '#89CFF0',
                 blue: 'rgb(0, 0, 255)',
@@ -41,6 +45,10 @@ module.exports = {
                 cadetBlue: 'rgb(95, 158, 160)',
                 cobaltBlue: '#0047AB',
                 cornflowerBlue: '#6495ED',
+<<<<<<< HEAD
+=======
+                cyan: 'rgb(0, 255, 255)',
+>>>>>>> ebc6872fa8236f622ada0684ed2d756605f9bf29
                 darkBlue: 'rgb(0, 0, 139)',
                 denim: '#6F8FAF',
                 dodgerBlue: '#1E90FF',
@@ -51,7 +59,10 @@ module.exports = {
                 indigo: 'rgb(63, 0, 255)',
                 iris: '#5D3FD3',
                 lightBlue: '#ADD8E6',
+<<<<<<< HEAD
                 lightCyan: '#E0FFFF',
+=======
+>>>>>>> ebc6872fa8236f622ada0684ed2d756605f9bf29
                 navyBlue: '#000080',
                 neonBlue: 'rgb(31, 81, 255)',
                 pastelBlue: '#A7C7E7',
@@ -69,11 +80,17 @@ module.exports = {
                 lightSteelBlue: '#B0C4DE',
                 teal: '#008080',
                 turquoise: '#40E0D0',
+<<<<<<< HEAD
                 darkTurquoise: '#00CED1',
                 mediumTurquoise: '#48D1CC',
                 paleTurquoise: '#AFEEEE',
                 ultramarine: '#0437F2',
                 verdigris: '#40B5AD',
+=======
+                mediumTurquoise: '#48D1CC',
+                ultramarine: 'rgb(4, 55, 242)',
+                verdigris: 'rgb(64, 181, 173)',
+>>>>>>> ebc6872fa8236f622ada0684ed2d756605f9bf29
                 zaffre: '#0818A8',
                 veryDarkBlue: 'hsl(233, 12%, 13%)',
 

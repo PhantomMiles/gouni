@@ -27,6 +27,10 @@ function myFunction() {
 
     } else {
         header.classList.remove("sticky");
+<<<<<<< HEAD
         header.style.backgroundColor = "#0F52BA";
+=======
+        header.style.backgroundColor = "#4682B4";
+>>>>>>> ebc6872fa8236f622ada0684ed2d756605f9bf29
     }
 }
