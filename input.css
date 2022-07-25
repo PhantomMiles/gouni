@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: noto sans jp;
+    /* background-image: url('../img/E-learning.png');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: 10% -5%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(43, 43, 43, 0.59); */
+}
+
+#ex-prog {
+    background-color: white;
+}
+
+#nav a {
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.25s;
+}
+
+#menu,
+#nav2 a {
+    text-transform: uppercase;
+}
+
+#nav,
+a {
+    /* font-family: proxima nova alt; */
+    transition: all 0.25s;
+    
+}
+
+#menu a {
+    padding: 10px;
+}
+
+
+#nav2 a {
+    padding: 6px;
+}
+
+button {
+    transition: all 0.25s;
+}
+
+p {
+    font-family: lato;
+}
+
+input#srch {
+    border: 2px solid #B2BEB5;
+}
+
+ul#tel {
+    list-style-type: square;
+}
+
+#signIn,
+#apply {
+    transition: all 0.25s;
+}
+#t-1 h1,
+h5 {
+    font-family: proxima nova;
+}
+
+
+/* Hamburger Menu */
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 4px;
+    border-radius: 5px;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+#slide{
+    background-image: url('../img/slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.523); 
+    background-position: center;
+}
+
+#t-1{
+    text-shadow: 0px 5px 5px black;
+}
+
+#tst-1{
+    margin-top: 130px;
+}
+
+#cp_link{
+    font-family: proxima nova; 
+    text-decoration: none; 
+}
+
+/* #lgin-frm .flex.flex-col{
+    border: ;
+} */
+
+#lgin-frm input {
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    /* margin-left: 80px; */
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+
+
+
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: -10;
+    width: 100%;
+    background-color: rgba(226, 226, 226, 0.719);
+}
+
+@media (max-width: 640px) {
+    #signIn{
+        border-radius: 50px;
+        background: #4169E1;
+        color: white;
+    
+    }
+    
+    #desc .flex.flex-col.items-center {
+        margin-top: 20px;
+        box-shadow: 0px 7px 5px black;
+        background-color: #3e3e3e;
+    }
+    #desc .flex.flex-col.items-center:hover {
+        background-color: none;
+        transition: none;
+        cursor: none;
+    }
+}
+h1
+{
+    font-family: tajawal;
+}
+
+
+
+/* @media (min-width: 768px),
+(max-width: 1440px) {
+.sticky {
+    margin-top: -60px;
+}
+} */
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+#desc {
+    background-image: url(../img/GOU3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0 30px;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.539);
+}
+
+#desc h2{
+    text-shadow: 0 7px 5px black;
+}
+
+#desc .flex.flex-col.items-center {
+    border: 1px solid #E5E4E2;
+    margin-top: 20px;
+}
+
+#desc .flex.flex-col.items-center:hover {
+    background-color: #71797E;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 2px solid #E5E4E2;
+    box-shadow: 0px 10px 5px #040425 ;
+}

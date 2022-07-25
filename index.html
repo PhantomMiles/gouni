@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="icon" type="img/png" href="img/logo2.png">
+    <title>Godfrey Okoye University - Unity of Knowledge</title>
+</head>
+
+<body>
+   
+    <!-- Navbar -->
+    
+    <section id="slide" class="w-full mx-auto py-1/2 flex flex-col px-auto space-y-20 md:space-y-28">
+        <nav class="max-w-full relative container mx-auto py-4 md:py-[1px] px-3" id="myHeader">
+            <!-- Flex container -->
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div>
+                    <img src="img/logo-white.png" class="h-8 md:h-20 md:p-4" alt="" />
+                </div>
+                <!-- Menu Items -->
+                <div class="hidden space-x-4 md:flex text-sm" id="nav">
+                    <a href="index.html" class="text-white hover:bg-lightSkyBlue font-bold">Home</a>
+                    <a href="events.html" class="text-white  hover:bg-lightSkyBlue font-bold">Events</a>
+                    <a href="news.html" class="text-white hover:bg-lightSkyBlue font-bold">News</a>
+                    <a href="about.html" class="text-white hover:bg-lightSkyBlue font-bold">About</a>
+                    <a href="archive.html" class="text-white hover:bg-lightSkyBlue font-bold">Archive</a>
+                    <a href="courses.html" class="text-white hover:bg-lightSkyBlue font-bold">Courses</a>
+                    <a href="forum.html" class="text-white hover:bg-lightSkyBlue font-bold">Forums</a>
+                    <a href="faq.html" class="text-white hover:bg-lightSkyBlue font-bold">FAQs</a>
+                </div>
+                <div class="space-x-1 hidden md:flex">
+                    <form action="" class="ml-2">
+                        <div class="hidden flex space-x-10 md:block">
+                            <input type="text" name="" id="srch" class="flex flex-row w-[350px] h-[40px] px-4 rounded-full focus:outline-none text-platinum bg-transparent" placeholder="Search">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- Button -->
+                <a href="login.php" id="signIn" class="p-3 px-6 pt-3 md:bg-none text-white text-sm hover:bg-lightSkyBlue font-bold rounded-full baseline focus:none sm:block md:block">Log In</a>
+                <!-- <a href="account.php" class="hidden p-3 px-1 pt-3 md:block"></a> -->
+
+                <!-- Hamburger Icon -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-5 space-y-2 font-bold bg-sapphireBlue text-white sm:w-25 sm:self-center left-24 right-6 drop-shadow-md rounded-lg">
+                    <a href="account.html" class="font-bold">Your Profile</a>
+                    <a href="index.html" class="font-bold">Home</a>
+                    <a href="events.html" class="font-bold">Events</a>
+                    <a href="news.html" class="font-bold">News</a>
+                    <a href="about.html" class="font-bold">About</a>
+                    <a href="archive.html" class="font-bold">Archive</a>
+                    <a href="courses.html" class="font-bold">Courses</a>
+                    <a href="forum.html" class="font-bold">Forums</a>
+                    <a href="faq.html" class="font-bold">FAQs</a>
+
+                </div>
+            </div>
+        </nav>
+        <div id="t-1" class="text-center py-2 space-y-8">
+            <h1 class="text-6xl text-lightBlue md:text-8xl mt-4">God's Own University</h1>
+            <h5 class="text-xl text-slate-500 md:text-3xl">A University On The Go</h5>
+        </div>
+        <div id="tst-1" class="w-[300px] mx-auto h-[380px] md:w-full md:h-[192px] md:flex bg-lightGray rounded-xl p-8 md:rounded-br-none md:rounded-bl-none md:p-0 md:space-y-2 md:block">
+            <img class="w-20 h-20 md:w-48 md:h-48 md:rounded-tl-xl md:rounded-tr-none md:rounded-br-none md:rounded-bl-none rounded-full -mt-20 md:mt-0 mx-auto md:mx-0" src="img/Josephine.jpg" alt="" width="384" height="512">
+            <div class="pt-4 md:px-8 md:-pt-80 text-center md:text-left space-y-4">
+                <blockquote>
+                <p class=" text-sm md:text-lg text-center md:text-left text-slate-700 font-medium">
+                    “My alma mater; the University on the go! I I’m forever proud of my university and the achievements she has made for herself. I really benefited a lot from the seminar and international interaction with students of the university. I can’t begin to overemphasis the system of teaching there, the values I learnt and the VC’s familiarity with his students and staff.”
+                </p>
+                </blockquote>
+                <figcaption class="font-medium">
+                    <div class="text-steelBlue text-sm">
+                        Elonye Benedicta Josephine Ifunanya
+                    </div>
+                    <div class="text-blueGray text-sm">
+                        Alumniate, Computer Science Department 
+                    </div>
+                </figcaption>
+            </div>
+        </div>
+    </section>
+    <!-- addmission Section -->
+    <section id="admission">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse items-center md:py-28 px-8 mx-auto mt-20 space-y-0 md:space-y-0 py-4 md:flex-row">
+            <!-- left item -->
+            <div class="flex flex-col mb-32 space-y-10 md:w-1/2 md:block">
+                <h1 class="max-w-md text-4xl font-bold text-center text-darkBlue md:text-5xl md:text-left md:ml-20">
+                    ADMISSIONS FOR THE CURRENT SESSION ARE IN PROGRESS!
+                </h1>
+                <p class="max-w-md text-center text-blueGray md:ml-20 md:text-left">Are you looking for university education without school fees? Then join Godfrey Okoye University, Enugu and educate yourself free through Godfrey Okoye University Scholarship Scheme. Make Godfrey Okoye University your first choice today.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <a href="admission.php" id="apply" class="p-3 px-6 pt-3 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue font-bold md:ml-20 " >Apply Now</a>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="md:max-w-md px-5">
+                <img src="img/admission.jpg" class="max-w-[300px] md:p-2 mb-2 mt-28 md:-mr-10 md:max-w-[600px] md:-mt-24 md:block" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Description -->
+    <section id="desc">
+        <div class="max-w-8xl px-1 mx-auto mt-20 text-center">
+            <!-- Heading -->
+            <h2 class="text-4xl font-bold text-center text-lightSkyBlue">
+                What Makes Godfrey Okoye University The Best University In The South East
+            </h2>
+            <div class="flex flex-col mt-20 md:flex-row md:space-x-6">
+                <!-- testimonial 1 -->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Our Certifications</h3>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quisquam delectus enim dolorum dolores aliquam maiores aut amet nam sequi earum, cupiditate eligendi? Nihil quisquam eum at molestiae odit excepturi.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque est cupiditate! Nisi architecto nam voluptatum illum laboriosam, perferendis voluptatem rem odit ratione obcaecati, ea, adipisci distinctio esse modi doloribus.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed laborum esse, veniam voluptatem facere unde officia sint, dolor aliquid eaque, impedit totam officiis voluptates ab amet distinctio eius accusantium.</p>
+                </div>
+                <!-- testimonial 2 -->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Learning Environment</h3>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quisquam delectus enim dolorum dolores aliquam maiores aut amet nam sequi earum, cupiditate eligendi? Nihil quisquam eum at molestiae odit excepturi.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque est cupiditate! Nisi architecto nam voluptatum illum laboriosam, perferendis voluptatem rem odit ratione obcaecati, ea, adipisci distinctio esse modi doloribus.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed laborum esse, veniam voluptatem facere unde officia sint, dolor aliquid eaque, impedit totam officiis voluptates ab amet distinctio eius accusantium.</p>
+                </div>
+                <!-- testimonial 3 -->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Our Programmes</h3>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quisquam delectus enim dolorum dolores aliquam maiores aut amet nam sequi earum, cupiditate eligendi? Nihil quisquam eum at molestiae odit excepturi.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque est cupiditate! Nisi architecto nam voluptatum illum laboriosam, perferendis voluptatem rem odit ratione obcaecati, ea, adipisci distinctio esse modi doloribus.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed laborum esse, veniam voluptatem facere unde officia sint, dolor aliquid eaque, impedit totam officiis voluptates ab amet distinctio eius accusantium.</p>
+                </div>
+            </div>
+            <div class="flex flex-col mt-4 md:flex-row md:space-x-6">
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Our E-Learning System</h3>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quisquam delectus enim dolorum dolores aliquam maiores aut amet nam sequi earum, cupiditate eligendi? Nihil quisquam eum at molestiae odit excepturi.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque est cupiditate! Nisi architecto nam voluptatum illum laboriosam, perferendis voluptatem rem odit ratione obcaecati, ea, adipisci distinctio esse modi doloribus.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed laborum esse, veniam voluptatem facere unde officia sint, dolor aliquid eaque, impedit totam officiis voluptates ab amet distinctio eius accusantium.</p>
+                </div>
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Accreditations</h3>
+                    <p class="text-md text-lightSteelBlue">GO University received its operational licence from the National Universities Commission (NUC) in 2009, and so commenced full academic activities in the 2009/2010. Currently, it offers undergraduate programmes in five faculties: Arts,
+                        Education, Law, Management and Social Sciences, Natural and Applied Sciences. All the programmes have NUC accreditation. GO University's law faculty also has the approval of the Legal Council of Education. </p>
+                    <p class="text-md text-lightSteelBlue">GO University also runs postgraduate programmes in Education, Management and Social Sciences, Natural and Applied Sciences. We have produced graduates who were all successfully mobilized for the National Youth Service Corps (NYSC)
+                        scheme in their year of graduation.</p>
+                    <!-- <p class="text-md text-lightSteelBlue">The university is committed especially to values that enable the achievment of academic excellence, integration of learning and character, religious, cultural and epistemological dialogue, ready access to prayers and blessings, availability
+                        of highly qualified staff, training of employable graduates, exchange programmes with foreign partner univesities, elaborate mentorship programme, serene and cult-free environment and respect for individuals of varies background.
+                        The university has produced sets of graduates who were all successfully mobilized for the National Youth Service Corps (NYSC) scheme in their year of graduation. Godfrey Okoye university Enugu is rightly called God’s own university.
+                        Within less than ten years, it has admitted more than three thousand students and will soon transfer some of its faculties to the permanent site at Ugwuomu-Nike Enugu. To the glory of God!</p> -->
+                </div>
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg md:w-1/2">
+                    <h3 class="text-xl font-bold text-lightBlue">Technology Inclined</h3>
+                    <p class="text-md text-lightSteelBlue">Godfrey Okoye University is an ICT</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore cumque est cupiditate! Nisi architecto nam voluptatum illum laboriosam, perferendis voluptatem rem odit ratione obcaecati, ea, adipisci distinctio esse modi doloribus.</p>
+                    <p class="text-md text-lightSteelBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed laborum esse, veniam voluptatem facere unde officia sint, dolor aliquid eaque, impedit totam officiis voluptates ab amet distinctio eius accusantium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ex-prog">
+        <!-- Flex Container -->
+        <div class="container flex flex-col items-center justify-between px-6 py-14 mx-auto space-y-0 md:py-12 md:space-y-0">
+            <!-- Heading -->
+            <h2 class="text-4xl font-bold text-darkBlue text-center md:text-3xl md:max-w-xl md:mx-auto">Our Exchange Programme</h2>
+            <div class="flex flex-col-reverse items-center md:px-10 mx-auto mt-2 space-y-0 md:space-y-0 py-2 md:flex-row">
+                <div class="flex flex-col mb-2 space-y-10 md:w-1/2">
+                    <p class="max-w-sm md:max-w-6xl text-sm md:text-lg text-center text-blueGray md:text-left md:block">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores quod vitae repellat ipsa iure tempore non sapiente expedita ipsum libero ducimus harum, omnis cumque aut facilis. Ea, sit quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea alias esse minima sint praesentium a. Accusantium nisi vel, sunt soluta nesciunt similique beatae quis ipsum deleniti iure amet dolorem odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corporis neque assumenda vitae optio similique magnam eius non id quasi a hic odio tempore architecto, quae, quis dicta pariatur quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cumque odio voluptate reprehenderit at laborum ipsa provident animi aliquam aliquid nostrum sit corporis laudantium aspernatur qui consequatur voluptatum, ab pariatur.
+                    </p>
+                </div> 
+                <!-- Image -->
+                <div class="md:max-w-md py-1 md:px-40">
+                    <img src="img/GOU1.jpeg" class="max-w-[300px] md:max-w-[400px] md:p-2 mb-2 mt-28 md:mr-10 md:block md:mt-2" alt="" />
+                </div>
+            </div>
+            <div class="flex flex-col mb-2 space-y-10 md:w-1/2">
+                <div class="flex justify-center">
+                    <a href="about.html" id="ex-prg" class="p-4 px-16 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue text-lg font-bold md:ml-20 md:block" >See More</a>
+                </div>
+            </div>       
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+        <!-- Flex container -->
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; Godfrey Okoye University 2022, All Rights Reserved</div>
+                <!-- Logo -->
+                <div>
+                    <img src="img/logo-white.png" alt="" class="h-20 mt-10 md:block">
+                </div>
+                <!-- Social lInks container -->
+                <div class="flex justify-center space-x-4">
+                    <!-- Link 1 -->
+                    <a href="www.facebook.com"><img src="img/icon-facebook.svg" alt="" class="h-8"></a>
+                    <!-- Link 2 -->
+                    <a href="www.youtube.com"><img src="img/icon-youtube.svg" alt="" class="h-8"></a>
+                    <!-- Link 3 -->
+                    <a href="www.twitter.com"><img src="img/icon-twitter.svg" alt="" class="h-8"></a>
+                    <!-- Link 4 -->
+                    <a href="www.pinterest.com"><img src="img/icon-pinterest.svg" alt="" class="h-8"></a>
+                    <!-- Link 5 -->
+                    <a href="www.instagram.com"><img src="img/icon-instagram.svg" alt="" class="h-8"></a>
+                </div>
+            </div>
+            <!-- List container -->
+            <div class="flex justify-around space-x-32" id="nav2">
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="account.html" class="hover:text-lightSteelBlue font-bold">Your Profile</a>
+                    <a href="index.html" class="hover:text-lightSteelBlue font-bold">Home</a>
+                    <a href="events.html" class="hover:text-lightSteelBlue font-bold">Events</a>
+                    <a href="news.html" class="hover:text-lightSteelBlue font-bold">News</a>
+                    <a href="about.html" class="hover:text-lightSteelBlue font-bold">About</a>
+                </div>
+                <div class="flex flex-col space-y-3 text-white">
+                    <a href="archive.html" class="hover:text-lightSteelBlue font-bold">Archive</a>
+                    <a href="courses.html" class="hover:text-lightSteelBlue font-bold">Courses</a>
+                    <a href="forum.html" class="hover:text-lightSteelBlue font-bold">Forums</a>
+                    <a href="faq.html" class="hover:text-lightSteelBlue font-bold">FAQs</a>
+                </div>
+            </div>
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form action="info@gouni.edu.ng">
+                    <div class="flex space-x-3">
+                        <input type="text" name="" id="" class="flex-1 w-1 px-4 rounded-full focus:outline-none" placeholder="Send us an email"> <button class="px-6 py-2 text-white rounded-full bg-royalBlue hover:bg-lightSkyBlue font-bold focus:outline:none">Send</button>
+                    </div>
+                </form>
+                <div class="hidden text-white md:block md:mt-5"> Contact us on the following lines:</div>
+                <div class="hidden text-white md:block md:mt-2">
+                    <ul id="tel" class="ml-5">
+                        <li>09134273215</li>
+                        <li>09121963049</li>
+                        <li>07061756730</li>
+                    </ul>
+                </div>
+                <div class="hidden text-white md:block md:mt-2">&copy; Godfrey Okoye University 2022, All Rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="text/babel"></script>
+
+</body>
+
+</html>
