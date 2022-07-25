@@ -105,7 +105,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/reg.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="image" type="logo" href="logo.jpg">
     <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
