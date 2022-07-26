@@ -106,7 +106,7 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="image" type="logo" href="logo.jpg">
+    <link rel="icon" type="img/png" href="img/logo2.png">
     <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
 </head>
 <body>
