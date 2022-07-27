@@ -23,10 +23,10 @@
     </div>
 
     <section id="event" class="bg-white">
-        <h1 class="text-4xl md:text-5xl text-center py-6 px-8 font-bold text-sapphireBlue">LOG IN</h1>
+        <h1 class="text-4xl md:text-5xl text-center py-6 px-8 font-bold">LOG IN</h1>
         <!-- Flex Container -->
         <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
-            <form id="lgin-frm" action="account2.php" method="post" class="">
+            <form id="lgin-frm" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <label for="" class="block font-bold mx-auto">Username</label>
@@ -40,7 +40,7 @@
                         <button id="lgin" class="p-4 px-16 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Log In</button>
                     </div>
                 </div>      
-                <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a>
+                <!-- <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a> -->
             </form>
         </div>
     </section>
