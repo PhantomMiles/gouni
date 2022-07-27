@@ -1264,14 +1264,38 @@ h5 {
   text-decoration: none;
 }
 
-/* #lgin-frm .flex.flex-col{
-    border: ;
-} */
+#lgin-frm{
+  box-shadow: 0px 5px 7px black;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+#lgin-frm label{
+  font-family: lato;
+}
+
+#lgin{
+  width: 100%;
+  padding: 30px 0;
+}
+
+#lgin h1, h2{
+  color: hsl(233, 12%, 13%);
+  font-family: tajawal;
+}
+
+#lgin h1{
+  color: hsl(233, 12%, 13%);
+}
+
+#lgin h2{
+  color: #000080;
+}
 
 #lgin-frm input {
   width: 300px;
   height: 30px;
-  padding: 20px;
+  padding: 20px 15px;
   /* margin-left: 80px; */
   font-size: 15px;
   outline: none;
@@ -1308,6 +1332,27 @@ h5 {
     background-color: none;
     transition: none;
     cursor: none;
+  }
+
+  #lgin-frm{
+    width: 300px;
+    box-shadow: 0px 3px 7px black;
+    padding: 30px 0px;
+    border-radius: 5px;
+  }
+
+  #lgin-frm input {
+    width: 250px;
+    height: 30px;
+    padding: 20px 15px;
+    /* margin-left: 80px; */
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
   }
 }
 
