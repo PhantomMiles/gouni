@@ -120,22 +120,53 @@
     </div>
 
     <section id="lgin" class="bg-white">
-        <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">LOG IN</h1>
-        <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">Please enter your login details</h2>
+        <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">Student Application Form</h1>
+        <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">All fields are required</h2>
         <!-- Flex Container -->
+        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
+            <form id="reg-frm" action="account2.php" method="post">
+                <div class="container flex flex-col mb-2 space-y-6">
+                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
+                        <fieldset>
+                            <legend>Your Personal Information</legend>
+                            <label for="" class="block font-bold mx-auto">First Name</label>
+                            <input type="text" name="fname" placeholder="First Name" class="<?php if(isset($err_fname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                            <?php  
+                                if (isset($err_fname)) {
+                                    echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fname</p>";
+                                }
+                            ?>
+                            <label for="" class="block font-bold mx-auto">Last Name</label>
+                            <input type="text" name="lname" placeholder="Last Name" class="<?php if(isset($err_lname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                            <?php  
+                                if (isset($err_lname)) {
+                                    echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lname</p>";
+                                }
+                            ?>
+                        </fieldset>
+                    </div>
+                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
+                    <label for="" class="block font-bold">Password</label>
+                        <input type="password" name="password" id="" placeholder="Password">
+                    </div>
+                    
+                </div>      
+                <!-- <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a> -->
+            </form>
+        </div>
         <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
             <form id="lgin-frm" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                        <label for="" class="block font-bold mx-auto">Username</label>
-                        <input type="email"  name="username" id="" placeholder="Username">
+                        <label for="" class="block font-bold mx-auto">First Name</label>
+                        <input type="text"  name="username" id="" placeholder="Enter your first name">
                     </div>
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                     <label for="" class="block font-bold">Password</label>
                         <input type="password" name="password" id="" placeholder="Password">
                     </div>
                     <div class="flex justify-center">
-                        <button id="lgin-btn" class="p-4 px-16 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Log In</button>
+                        <button id="reg-btn" class="p-4 px-16 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Submit</button>
                     </div>
                 </div>      
                 <!-- <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a> -->
@@ -201,7 +232,7 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
         <img src="logo.jpg" style="width: 180px; height: 180px; padding: 30px; margin: -30px 40% 0px;  border-radius: 100%;" alt="">
         <fieldset>
