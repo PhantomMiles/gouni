@@ -110,7 +110,7 @@
     <script src="https://kit.fontawesome.com/d2a04fa078.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="max-w-full relative container mx-auto py-4 md:py-4 px-3 bg-sapphireBlue">
+    <div class="max-w-full relative container mx-auto py-4 md:py-4 px-3 bg-sapphireBlue">
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <div class="mx-auto">
@@ -119,48 +119,555 @@
         </div>
     </div>
 
-    <section id="lgin" class="bg-white">
-        <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">Student Application Form</h1>
+    <section id="reg" class="bg-platinum">
+        <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">APPLICATION FORM</h1>
         <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">All fields are required</h2>
         <!-- Flex Container -->
-        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
-            <form id="reg-frm" action="account2.php" method="post">
+        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-x-4 md:flex-row md:space-y-20">
+            <form id="reg-frm-p" class="bg-white" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <fieldset>
                             <legend>Your Personal Information</legend>
-                            <label for="" class="block font-bold mx-auto">First Name</label>
-                            <input type="text" name="fname" placeholder="First Name" class="<?php if(isset($err_fname)) { echo 'error'; } else{ echo 'correct';} ?>">
-                            <?php  
-                                if (isset($err_fname)) {
-                                    echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fname</p>";
-                                }
-                            ?>
-                            <label for="" class="block font-bold mx-auto">Last Name</label>
-                            <input type="text" name="lname" placeholder="Last Name" class="<?php if(isset($err_lname)) { echo 'error'; } else{ echo 'correct';} ?>">
-                            <?php  
-                                if (isset($err_lname)) {
-                                    echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lname</p>";
-                                }
-                            ?>
+                            <table cellpadding="3">
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="fname" placeholder="Enter first name" class="<?php if(isset($err_fname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_fname)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fname</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                    <input type="text" name="lname" placeholder="Enter last name" class="<?php if(isset($err_lname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_lname)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lname</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                
+                                </tr>
+
+                                <tr>  
+                                    <th>Date of Birth</th>
+                                    <th>Age</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="date" name="dob" id="" placeholder="Date of Birth" class="<?php if(isset($err_dob)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_dob)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_dob</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="age" id="" min="15" max="40" placeholder="Enter your age" class="<?php if(isset($err_age) || isset($err_ageNum)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_age)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_age</p>";
+                                            }
+                                            if (isset($err_ageNum)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_ageNum</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <th>State of Origin</th>
+                                    <th>LGA</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="state" id="" class="<?php if(isset($err_state)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_state)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_state</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <select name="lga" id="" class="<?php if(isset($err_lga)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_lga)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lga</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Telephone Number</th>
+                                    <th>Email</th>
+                                </tr>                            
+                                <tr>
+                                    <td>
+                                        <input type="tel" name="phone_num" id="" placeholder="Enter your phone number" class="<?php if(isset($err_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_phone_num)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_phone_num</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <input type="email" name="email" placeholder="Email Address" class="<?php if(isset($err_email)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_email)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_email</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <tr>
+                                        <th>Nationality</th>
+                                        <th>Next of Kin</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            
+                                            <select name="nationality" id="" class="<?php if(isset($err_nationality)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Afghani</option>
+                                            <option value="n2">Albanian</option>
+                                            <option value="n3">Austrian</option>
+                                            <option value="n4">Australian</option>
+                                            <option value="n5">Bangladese</option>
+                                            <option value="n6">Benin</option>
+                                            <option value="n7">Botswanian</option>
+                                            <option value="n8">Cameroonian</option>
+                                            <option value="n9">Denmark</option>
+                                            <option value="n10">Ecuador</option>
+                                            <option value="n11">Estonian</option>
+                                            <option value="n12">Egyptian</option>
+                                            <option value="n13">Finland</option>
+                                            <option value="n14">French</option>
+                                            <option value="n15">Gabonese</option>
+                                            <option value="n16">Irish</option>
+                                            <option value="n17">Jamaican</option>
+                                            <option value="n18">Laos</option>
+                                            <option value="n19">Nigerien</option>
+                                            <option value="n20">Nigerian</option>
+                                            <option value="n21">Oman</option>
+                                            <option value="n22">Polish</option>
+                                            <option value="n23">Rwandan</option>
+                                            <option value="n24">Spanish</option>
+                                            <option value="n25">Togolese</option>
+                                            <option value="n26">Yugoslavian</option>
+                                            <option value="n27">Zimbabwean</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_nationality)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_nationality</p>";
+                                            }
+                                        ?>
+                                        </td>
+                                        <td>
+                                            <input type="text" name="nok" placeholder="Enter next of kin" class="<?php if(isset($err_gname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                                <?php  
+                                                    if (isset($err_lname)) {
+                                                        echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_nok</p>";
+                                                    }
+                                                ?>
+                                        </td>
+                                    </tr>
+                            </table>
+                            
                         </fieldset>
-                    </div>
-                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                    <label for="" class="block font-bold">Password</label>
-                        <input type="password" name="password" id="" placeholder="Password">
-                    </div>
-                    
-                </div>      
-                <!-- <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a> -->
+                        <fieldset>
+                            <legend>Your Parent's Information</legend>
+                            <table cellpadding="3">
+                                <tr>
+                                    <th>Father's Name</th>
+                                    <th>Mother's Name</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="fa_name" placeholder="Enter father's name" class="<?php if(isset($err_fa_name)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_fa_name)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fa_name</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                    <input type="text" name="mo_name" placeholder="Enter mother's name" class="<?php if(isset($err_mo_name)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_mo_name)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_mo_name</p>";
+                                            }
+                                        ?>
+                                    </td>  
+                                </tr>
+                                <tr>
+                                    <th>State of Origin</th>
+                                    <th>LGA</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="state" id="" class="<?php if(isset($err_state)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_state)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_state</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <select name="lga" id="" class="<?php if(isset($err_lga)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_lga)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lga</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Father's Phone No.</th>
+                                    <th>Mother's Phone No.</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="tel" name="f_phone_num" id="" placeholder="Enter your father's phone no." class="<?php if(isset($err_f_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_f_phone_num)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_f_phone_num</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <input type="tel" name="m_phone_num" id="" placeholder="Enter your mother's phone no." class="<?php if(isset($err_m_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_m_phone_num)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_m_phone_num</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </fieldset>
+                        <fieldset>
+                            <legend>Your Parent's Information</legend>
+                            <table cellpadding="3">
+                                <tr>
+                                    <th>Father's Name</th>
+                                    <th>Mother's Name</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="fa_name" placeholder="Enter father's name" class="<?php if(isset($err_fa_name)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_fa_name)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fa_name</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                    <input type="text" name="mo_name" placeholder="Enter mother's name" class="<?php if(isset($err_mo_name)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_mo_name)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_mo_name</p>";
+                                            }
+                                        ?>
+                                    </td>  
+                                </tr>
+                                <tr>
+                                    <th>State of Origin</th>
+                                    <th>LGA</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="state" id="" class="<?php if(isset($err_state)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_state)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_state</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <select name="lga" id="" class="<?php if(isset($err_lga)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                            <option value="">--Select--</option>
+                                            <option value="n1">Abia</option>
+                                            <option value="n2">Adamawa</option>
+                                            <option value="n3">Akwa Ibom</option>
+                                            <option value="n4">Anambra</option>
+                                            <option value="n5">Bauchi</option>
+                                            <option value="n6">Bayelsa</option>
+                                            <option value="n7">Benue</option>
+                                            <option value="n8">Borno</option>
+                                            <option value="n9">Cross River</option>
+                                            <option value="n10">Delta</option>
+                                            <option value="n11">Ebonyi</option>
+                                            <option value="n12">Edo</option>
+                                            <option value="n13">Ekiti</option>
+                                            <option value="n14">Enugu</option>
+                                            <option value="n15">Gombe</option>
+                                            <option value="n16">Imo</option>
+                                            <option value="n17">Jigawa</option>
+                                            <option value="n18">Kaduna</option>
+                                            <option value="n19">Kano</option>
+                                            <option value="n20">Katsina</option>
+                                            <option value="n21">Kebbi</option>
+                                            <option value="n22">Kogi</option>
+                                            <option value="n23">Kwara</option>
+                                            <option value="n24">Lagos</option>
+                                            <option value="n25">Nasarawa</option>
+                                            <option value="n26">Niger</option>
+                                            <option value="n27">Ogun</option>
+                                            <option value="n28">Ondo</option>
+                                            <option value="n29">Osun</option>
+                                            <option value="n30">Oyo</option>
+                                            <option value="n31">Plateau</option>
+                                            <option value="n32">Rivers</option>
+                                            <option value="n33">Sokoto</option>
+                                            <option value="n34">Taraba</option>
+                                            <option value="n35">Yobe</option>
+                                            <option value="n36">Zamfara</option>
+                                            <option value="n37">FCT</option>
+                                        </select>  
+                                        <?php  
+                                            if (isset($err_lga)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lga</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Father's Phone No.</th>
+                                    <th>Mother's Phone No.</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="tel" name="f_phone_num" id="" placeholder="Enter your father's phone no." class="<?php if(isset($err_f_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_f_phone_num)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_f_phone_num</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                    <td>
+                                        <input type="tel" name="m_phone_num" id="" placeholder="Enter your mother's phone no." class="<?php if(isset($err_m_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <?php  
+                                            if (isset($err_m_phone_num)) {
+                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_m_phone_num</p>";
+                                            }
+                                        ?>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </fieldset>
+                    </div> 
+                </div> 
             </form>
-        </div>
-        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
-            <form id="lgin-frm" action="account2.php" method="post">
+            <form id="reg-frm-a" class="bg-white" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <fieldset>
                             <legend>Academic Details</legend>
-                            <label for="" style="display: block; text-align: center;">WAEC/ NECO Grades</label>
+                            <label for="" style="display: block; margin-top: -5px; margin-bottom: 20px; text-align: center;">WAEC/ NECO Grades</label>
                             <table>
                                 <tr>
                                     <th>Subject</th>
@@ -654,28 +1161,58 @@
                                         </select>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <th>JAMB Score</th>
+                                    <th>Type Of Entry</th>
+                                    <th>Other Exams</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="number" name="" id="" min="100" max="400" placeholder="Enter JAMB UTME score">
+                                    </td>
+                                    <td>
+                                        <select name="entry_type" id="">
+                                            <option value="t1">--Select--</option>
+                                            <option value="t2">JAMB Entry</option>
+                                            <option value="t3">Direct Entry</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="other_result" id="">
+                                            <option value="n1">--Select--</option>
+                                            <option value="n1">IGSCE</option>
+                                            <option value="n1">IELTS</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>JAMB Reg Number</th>
+                                    <th>WAEC Reg Number</th>
+                                    <th>NECO Reg Number</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <textarea name="" id="" placeholder="Enter JAMB reg number"></textarea>
+                                    </td>
+                                    <td>
+                                        <textarea name="" id="" placeholder="Enter WAEC reg number"></textarea>
+                                    </td>
+                                    <td>
+                                        <textarea name="" id="" placeholder="Enter NECO reg number"></textarea>
+                                    </td>
+                                </tr>
                             </table>
                             <label for=""  class="inline-block font-bold my-20 mx-auto"></label>
-                            <input type="number" name="" id="" min="100" max="400" placeholder="Enter JAMB UTME score">
-                            <label for=""  class="inline-block font-bold">Other Exams</label>
-                            <select name="other_result" id="other_result" class="inline-block mt-40 mx-auto">
-                                <option value="n1">--Select--</option>
-                                <option value="n1">IGSCE</option>
-                                <option value="n1">IELTS</option>
-                            </select>
+                            
+                            <label for=""  class="inline-block font-bold"></label>
+                            
                         </fieldset>
                     </div>
                 </div> 
-                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                    <label for="" class="block font-bold">Password</label>
-                        <input type="password" name="password" id="" placeholder="Password">
-                    </div>
-                    <div class="flex justify-center">
-                        <button id="reg-btn" class="p-4 px-16 text-white bg-royalBlue rounded-lg baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Submit</button>
-                    </div>
-                </div>      
-                <!-- <a href="#" id="cp_link" class="text-sapphireBlue text-center mx-60">Forgot your password?</a> -->
             </form>
+        </div>
+        <div class="flex justify-center">
+            <button id="reg-btn" class="p-4 px-16 text-white bg-royalBlue rounded-xl baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Submit</button>
         </div>
     </section>
     <footer class="bg-veryDarkBlue">
@@ -737,7 +1274,6 @@
             </div>
         </div>
     </footer>
-
     <!-- <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
         <img src="logo.jpg" style="width: 180px; height: 180px; padding: 30px; margin: -30px 40% 0px;  border-radius: 100%;" alt="">
         <fieldset>
@@ -951,7 +1487,7 @@
             
         </fieldset>
         
-        <fieldset style="display:none;">
+        <fieldset>
             <legend>Academic Details</legend>
             <label for="">JAMB Score</label>
             <input type="number" name="" id="" min="100" max="400" placeholder="Enter JAMB UTME score" style="display: inline-block; width: 400px;">

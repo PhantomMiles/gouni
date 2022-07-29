@@ -144,16 +144,148 @@ h5 {
     text-decoration: none; 
 }
 
+#reg-frm-p {
+    width: 650px;
+    padding: 10px 0;
+    box-shadow: 0px 5px 7px black;
+    border-radius: 5px;
+}
+#reg-frm-p fieldset{
+    width: 100%;
+    padding: 10px 30px;
+    border: 5px solid #264d7d;
+}
+#reg-frm-p legend{
+    font-family: tajawal;
+    color: #264d7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+#reg-frm-p input {
+    width: 250px;
+    height: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+#reg-frm-p select {
+    width: 250px;
+    height: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+#reg-frm-p th{
+    font-family: lato;
+    text-align: left;
+}
+
+#reg-frm-a {
+    width: 750px;
+    padding: 5px 0;
+    box-shadow: 0px 5px 7px black;
+    border-radius: 5px;
+}
+#reg-frm-a fieldset{
+    width: 100%;
+    padding: 10px 20px;
+    border: 5px solid #264d7d;
+}
+#reg-frm-a legend{
+    font-family: tajawal;
+    color: #264d7d;
+    font-weight: 600;
+    font-size: 20px;
+}
+#reg-frm-a input {
+    width: 210px;
+    height: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+
+#reg-frm-a textarea {
+    width: 200px;
+    height: 35px;
+    padding: 7px 15px;
+    display: inline-block;
+    font-size: 15px;
+    outline: none;
+    resize: none;
+    border: none;
+    margin: 10px 5px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+#reg-frm-a select {
+    width: 200px;
+    height: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #eee;
+    font-family: proxima nova;
+}
+#reg-frm-a th{
+    font-family: lato;
+    text-align: left;
+    padding: 0 5px;
+}
+
+form select.error{
+	border: 1px solid red;
+}
+
+form input.error{
+	border: 1px solid red;
+}
+
+#reg{
+    width: 100%;
+    padding: 30px 0;
+}
+#reg h1, h2{
+    color: hsl(233, 12%, 13%);
+    font-family: tajawal;
+}
+#reg h1{
+    color: hsl(233, 12%, 13%);
+}
+#reg h2{
+    color: #000080;
+}
+
 #lgin-frm{
     box-shadow: 0px 5px 7px black;
     padding: 30px;
     border-radius: 5px;
 }
-
-#lgin-frm label{
-    font-family: lato;
-}
-
 #lgin{
     width: 100%;
     padding: 30px 0;
@@ -164,8 +296,13 @@ h5 {
 }
 #lgin h1{
     color: hsl(233, 12%, 13%);
-}#lgin h2{
+}
+#lgin h2{
     color: #000080;
+}
+
+#lgin-frm label{
+    font-family: lato;
 }
 
 #lgin-frm input {
