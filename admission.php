@@ -158,9 +158,514 @@
             <form id="lgin-frm" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                        <label for="" class="block font-bold mx-auto">First Name</label>
-                        <input type="text"  name="username" id="" placeholder="Enter your first name">
+                        <fieldset>
+                            <legend>Academic Details</legend>
+                            <label for="" style="display: block; text-align: center;">WAEC/ NECO Grades</label>
+                            <table>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Exam Type</th>
+                                    <th>Grade</th>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects" required>
+                                            <option value=""></option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType" required>
+                                            <option value=""></option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade" required>
+                                            <option value=""></option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="" id="subjects">
+                                            <option value="">--Select--</option>
+                                            <option value="">Mathematics</option>
+                                            <option value="">English</option>
+                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Biology</option>
+                                            <option value="">Chemistry</option>
+                                            <option value="">Physics</option>
+                                            <option value="">Economics</option>
+                                            <option value="">Commerce</option>
+                                            <option value="">Accounting</option>
+                                            <option value="">Literature-in-English</option>
+                                            <option value="">Government</option>
+                                            <option value="">Computer Science</option>
+                                            <option value="">Geography</option>
+                                            <option value="">Technical Drawing</option>
+                                            <option value="">Visual Arts</option>
+                                            <option value="">Food and Nutrition</option>
+                                            <option value="">Agriculture</option>
+                                            <option value="">Civic Education</option>
+                                            <option value="">C.R.K</option>
+                                            <option value="">Data Processing</option>
+                                            <option value="">Painting and Decoration</option>
+                                            <option value="">Catering Craft</option>
+                                            <option value="">Dyeing and Bleaching</option>
+                                            <option value="">French</option>
+                                            <option value="">Igbo</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="examType">
+                                            <option value="">--Select--</option>
+                                            <option value="">WAEC</option>
+                                            <option value="">NECO</option>
+                                            <option value="">GCE</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="" id="grade">
+                                            <option value="">--Select--</option>
+                                            <option value="">A1</option>
+                                            <option value="">B2</option>
+                                            <option value="">B3</option>
+                                            <option value="">C4</option>
+                                            <option value="">C5</option>
+                                            <option value="">C6</option>
+                                            <option value="">D7</option>
+                                            <option value="">E8</option>
+                                            <option value="">F9</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <label for=""  class="inline-block font-bold my-20 mx-auto"></label>
+                            <input type="number" name="" id="" min="100" max="400" placeholder="Enter JAMB UTME score">
+                            <label for=""  class="inline-block font-bold">Other Exams</label>
+                            <select name="other_result" id="other_result" class="inline-block mt-40 mx-auto">
+                                <option value="n1">--Select--</option>
+                                <option value="n1">IGSCE</option>
+                                <option value="n1">IELTS</option>
+                            </select>
+                        </fieldset>
                     </div>
+                </div> 
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                     <label for="" class="block font-bold">Password</label>
                         <input type="password" name="password" id="" placeholder="Password">
