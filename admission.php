@@ -123,7 +123,7 @@
         <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">APPLICATION FORM</h1>
         <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">All fields are required</h2>
         <!-- Flex Container -->
-        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-x-4 md:flex-row md:space-y-20">
+        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-x-4 md:flex-row md:space-y-40">
             <form id="reg-frm-p" class="bg-white" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
@@ -509,76 +509,20 @@
                             
                         </fieldset>
                         <fieldset>
-                            <legend>Your Parent's Information</legend>
+                            <legend>How you got to know about GOU</legend>
                             <table cellpadding="3">
                                 <tr>
-                                    <th>Father's Name</th>
-                                    <th>Mother's Name</th>
-                                    
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="text" name="fa_name" placeholder="Enter father's name" class="<?php if(isset($err_fa_name)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                        <?php  
-                                            if (isset($err_fa_name)) {
-                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_fa_name</p>";
-                                            }
-                                        ?>
-                                    </td>
-                                    <td>
-                                    <input type="text" name="mo_name" placeholder="Enter mother's name" class="<?php if(isset($err_mo_name)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                        <?php  
-                                            if (isset($err_mo_name)) {
-                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_mo_name</p>";
-                                            }
-                                        ?>
-                                    </td>  
-                                </tr>
-                                <tr>
-                                    <th>State of Origin</th>
-                                    <th>LGA</th>
+                                    <th>Source of Information</th>
+                                    <th>Name of Student / Staff</th>
                                 </tr>
                                 <tr>
                                     <td>
                                         <select name="state" id="" class="<?php if(isset($err_state)) { echo 'error'; } else{ echo 'correct';} ?>">
                                             <option value="">--Select--</option>
-                                            <option value="n1">Abia</option>
-                                            <option value="n2">Adamawa</option>
-                                            <option value="n3">Akwa Ibom</option>
-                                            <option value="n4">Anambra</option>
-                                            <option value="n5">Bauchi</option>
-                                            <option value="n6">Bayelsa</option>
-                                            <option value="n7">Benue</option>
-                                            <option value="n8">Borno</option>
-                                            <option value="n9">Cross River</option>
-                                            <option value="n10">Delta</option>
-                                            <option value="n11">Ebonyi</option>
-                                            <option value="n12">Edo</option>
-                                            <option value="n13">Ekiti</option>
-                                            <option value="n14">Enugu</option>
-                                            <option value="n15">Gombe</option>
-                                            <option value="n16">Imo</option>
-                                            <option value="n17">Jigawa</option>
-                                            <option value="n18">Kaduna</option>
-                                            <option value="n19">Kano</option>
-                                            <option value="n20">Katsina</option>
-                                            <option value="n21">Kebbi</option>
-                                            <option value="n22">Kogi</option>
-                                            <option value="n23">Kwara</option>
-                                            <option value="n24">Lagos</option>
-                                            <option value="n25">Nasarawa</option>
-                                            <option value="n26">Niger</option>
-                                            <option value="n27">Ogun</option>
-                                            <option value="n28">Ondo</option>
-                                            <option value="n29">Osun</option>
-                                            <option value="n30">Oyo</option>
-                                            <option value="n31">Plateau</option>
-                                            <option value="n32">Rivers</option>
-                                            <option value="n33">Sokoto</option>
-                                            <option value="n34">Taraba</option>
-                                            <option value="n35">Yobe</option>
-                                            <option value="n36">Zamfara</option>
-                                            <option value="n37">FCT</option>
+                                            <option value="i1">A student / staff</option>
+                                            <option value="i2">The school's website</option>
+                                            <option value="i3">Radio</option>
+                                            <option value="i4">Social media</option>
                                         </select>  
                                         <?php  
                                             if (isset($err_state)) {
@@ -587,71 +531,10 @@
                                         ?>
                                     </td>
                                     <td>
-                                        <select name="lga" id="" class="<?php if(isset($err_lga)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                            <option value="">--Select--</option>
-                                            <option value="n1">Abia</option>
-                                            <option value="n2">Adamawa</option>
-                                            <option value="n3">Akwa Ibom</option>
-                                            <option value="n4">Anambra</option>
-                                            <option value="n5">Bauchi</option>
-                                            <option value="n6">Bayelsa</option>
-                                            <option value="n7">Benue</option>
-                                            <option value="n8">Borno</option>
-                                            <option value="n9">Cross River</option>
-                                            <option value="n10">Delta</option>
-                                            <option value="n11">Ebonyi</option>
-                                            <option value="n12">Edo</option>
-                                            <option value="n13">Ekiti</option>
-                                            <option value="n14">Enugu</option>
-                                            <option value="n15">Gombe</option>
-                                            <option value="n16">Imo</option>
-                                            <option value="n17">Jigawa</option>
-                                            <option value="n18">Kaduna</option>
-                                            <option value="n19">Kano</option>
-                                            <option value="n20">Katsina</option>
-                                            <option value="n21">Kebbi</option>
-                                            <option value="n22">Kogi</option>
-                                            <option value="n23">Kwara</option>
-                                            <option value="n24">Lagos</option>
-                                            <option value="n25">Nasarawa</option>
-                                            <option value="n26">Niger</option>
-                                            <option value="n27">Ogun</option>
-                                            <option value="n28">Ondo</option>
-                                            <option value="n29">Osun</option>
-                                            <option value="n30">Oyo</option>
-                                            <option value="n31">Plateau</option>
-                                            <option value="n32">Rivers</option>
-                                            <option value="n33">Sokoto</option>
-                                            <option value="n34">Taraba</option>
-                                            <option value="n35">Yobe</option>
-                                            <option value="n36">Zamfara</option>
-                                            <option value="n37">FCT</option>
-                                        </select>  
+                                    <textarea name="" id="" placeholder="Enter student / staff name"></textarea> 
                                         <?php  
                                             if (isset($err_lga)) {
                                                 echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lga</p>";
-                                            }
-                                        ?>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Father's Phone No.</th>
-                                    <th>Mother's Phone No.</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <input type="tel" name="f_phone_num" id="" placeholder="Enter your father's phone no." class="<?php if(isset($err_f_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                        <?php  
-                                            if (isset($err_f_phone_num)) {
-                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_f_phone_num</p>";
-                                            }
-                                        ?>
-                                    </td>
-                                    <td>
-                                        <input type="tel" name="m_phone_num" id="" placeholder="Enter your mother's phone no." class="<?php if(isset($err_m_phone_num)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                        <?php  
-                                            if (isset($err_m_phone_num)) {
-                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_m_phone_num</p>";
                                             }
                                         ?>
                                     </td>
@@ -667,7 +550,7 @@
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <fieldset>
                             <legend>Academic Details</legend>
-                            <label for="" style="display: block; margin-top: -5px; margin-bottom: 20px; text-align: center;">WAEC/ NECO Grades</label>
+                            <label for="" style="display: block; color: #0F52BA; font-weight:bolder; margin-bottom: 20px; text-align: center;">WAEC/ NECO Grades</label>
                             <table>
                                 <tr>
                                     <th>Subject</th>
@@ -678,7 +561,7 @@
                                 <tr>
                                     <td>
                                         <select name="" id="subjects" required>
-                                            <option value=""></option>
+                                            <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
                                             <option value="">Further Mathemtics</option>
@@ -708,7 +591,7 @@
                                     </td>
                                     <td>
                                         <select name="" id="examType" required>
-                                            <option value=""></option>
+                                            <option value="">--Select--</option>
                                             <option value="">WAEC</option>
                                             <option value="">NECO</option>
                                             <option value="">GCE</option>
@@ -716,7 +599,7 @@
                                     </td>
                                     <td>
                                         <select name="" id="grade" required>
-                                            <option value=""></option>
+                                            <option value="">--Select--</option>
                                             <option value="">A1</option>
                                             <option value="">B2</option>
                                             <option value="">B3</option>
@@ -1202,9 +1085,6 @@
                                     </td>
                                 </tr>
                             </table>
-                            <label for=""  class="inline-block font-bold my-20 mx-auto"></label>
-                            
-                            <label for=""  class="inline-block font-bold"></label>
                             
                         </fieldset>
                     </div>
