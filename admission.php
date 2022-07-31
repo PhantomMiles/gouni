@@ -564,7 +564,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -618,7 +618,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -672,7 +672,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -726,7 +726,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -780,7 +780,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -834,7 +834,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -888,7 +888,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -942,7 +942,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -996,7 +996,7 @@
                                             <option value="">--Select--</option>
                                             <option value="">Mathematics</option>
                                             <option value="">English</option>
-                                            <option value="">Further Mathemtics</option>
+                                            <option value="">Further Mathematics</option>
                                             <option value="">Biology</option>
                                             <option value="">Chemistry</option>
                                             <option value="">Physics</option>
@@ -1385,7 +1385,7 @@
                             <option value=""></option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1439,7 +1439,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1493,7 +1493,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1547,7 +1547,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1601,7 +1601,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1655,7 +1655,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1709,7 +1709,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1763,7 +1763,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>
@@ -1817,7 +1817,7 @@
                             <option value="">--Select--</option>
                             <option value="">Mathematics</option>
                             <option value="">English</option>
-                            <option value="">Further Mathemtics</option>
+                            <option value="">Further Mathematics</option>
                             <option value="">Biology</option>
                             <option value="">Chemistry</option>
                             <option value="">Physics</option>

@@ -28,13 +28,13 @@
         <!-- Flex Container -->
         <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-y-0">
             <form id="lgin-frm" action="account2.php" method="post">
-                <div class="container flex flex-col mb-2 space-y-6">
-                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                        <label for="" class="block font-bold mx-auto text-sapphireBlue">Username</label>
+                <div class="container flex flex-col mb-2 space-y-2">
+                    <div class="flex-col items-center justify-between px-6 py-2 mx-auto space-y-2">
+                        <label for="" class="block font-bold mx-auto">Username</label>
                         <input type="email"  name="username" id="" placeholder="Username">
                     </div>
-                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
-                    <label for="" class="block font-bold text-sapphireBlue">Password</label>
+                    <div class="flex-col items-center justify-between px-6 py-2 mx-auto space-y-2">
+                    <label for="" class="block font-bold">Password</label>
                         <input type="password" name="password" id="" placeholder="Password">
                     </div>
                     <div class="flex justify-center">

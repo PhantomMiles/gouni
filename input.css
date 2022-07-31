@@ -324,6 +324,7 @@ form input.error{
 
 #lgin-frm label{
     font-family: lato;
+    color: #0F52BA;
 }
 
 #lgin-frm input {
@@ -443,5 +444,5 @@ h1
     transition: all 0.5s;
     cursor: pointer;
     border: 2px solid #E5E4E2;
-    box-shadow: 0px 10px 5px #040425 ;
+    box-shadow: 0px 5px 10px #040425 ;
 }
