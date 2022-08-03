@@ -370,7 +370,7 @@ form input.error{
     #desc .flex.flex-col.items-center {
         margin-top: 20px;
         box-shadow: 0px 7px 5px black;
-        background-color: #3e3e3e;
+        background-color: #909497;
     }
     #desc .flex.flex-col.items-center:hover {
         background-color: none;
@@ -430,17 +430,13 @@ h1
     background-color: rgba(0, 0, 0, 0.642);
 }
 
-#desc h2{
-    text-shadow: 0 7px 5px black;
-}
-
 #desc .flex.flex-col.items-center {
     border: 1px solid #E5E4E2;
     margin-top: 20px;
 }
 
 #desc .flex.flex-col.items-center:hover {
-    background-color: #71797E;
+    background-color: #909497;
     transition: all 0.5s;
     cursor: pointer;
     border: 2px solid #E5E4E2;
