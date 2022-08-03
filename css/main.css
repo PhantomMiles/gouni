@@ -1107,11 +1107,6 @@ video {
   color: rgb(70 130 180 / var(--tw-text-opacity));
 }
 
-.text-lightGray {
-  --tw-text-opacity: 1;
-  color: rgb(211 211 211 / var(--tw-text-opacity));
-}
-
 .text-grayGoose {
   --tw-text-opacity: 1;
   color: rgb(209 208 206 / var(--tw-text-opacity));
@@ -1561,7 +1556,7 @@ h1
   padding: 10px 0 30px;
   background-attachment: fixed;
   background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.539);
+  background-color: rgba(0, 0, 0, 0.642);
 }
 
 #desc h2{
