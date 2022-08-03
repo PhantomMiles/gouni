@@ -126,6 +126,8 @@ module.exports = {
                 ashGray: '#B2BEB5',
                 darkGray: '#A9A9A9',
                 gray: '#808080',
+                grayGoose: '#D1D0CE',
+                grayCloud: '#B6B6B4',
                 gunmetalGray: '#818589',
                 lightGray: '#D3D3D3',
                 pewter: '#899499',
