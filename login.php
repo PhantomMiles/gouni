@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <section id="lgin" class="bg-white">
+    <section id="lgin" class="bg-platinum">
         <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">LOG IN</h1>
         <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">Please enter your login details</h2>
         <!-- Flex Container -->
@@ -30,7 +30,7 @@
             <form id="lgin-frm" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-2">
                     <div class="flex-col items-center justify-between px-6 py-2 mx-auto space-y-2">
-                        <label for="" class="block font-bold mx-auto">Username</label>
+                        <label for="" class="block font-bold mx-auto">Username/Matriculation Number</label>
                         <input type="email"  name="username" id="" placeholder="Username">
                     </div>
                     <div class="flex-col items-center justify-between px-6 py-2 mx-auto space-y-2">
