@@ -22,7 +22,7 @@
         </div>
     </div>
 
-    <section id="lgin" class="bg-platinum">
+    <section id="lgin">
         <h1 class="text-4xl md:text-5xl text-center py-2 px-8 font-bold">LOG IN</h1>
         <h2 class="text-3xl md:text-4xl text-center py-4 px-8 font-bold">Please enter your login details</h2>
         <!-- Flex Container -->
