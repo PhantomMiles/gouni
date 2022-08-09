@@ -648,6 +648,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -666,10 +670,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .block {
@@ -1577,24 +1577,19 @@ h1
   background-color: rgb(65 105 225 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-lightSkyBlue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(135 206 250 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-blueGray:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(115 147 179 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-lightSkyBlue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(135 206 250 / var(--tw-bg-opacity));
+}
+
 .hover\:text-deepSkyBlue:hover {
   --tw-text-opacity: 1;
   color: rgb(0 191 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-skyBlue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(135 206 235 / var(--tw-text-opacity));
 }
 
 .hover\:text-lightSteelBlue:hover {
@@ -1640,8 +1635,12 @@ h1
     margin-top: -7rem;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .md\:mt-0 {
@@ -1662,14 +1661,6 @@ h1
 
   .md\:mr-10 {
     margin-right: 2.5rem;
-  }
-
-  .md\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .md\:mt-5 {
-    margin-top: 1.25rem;
   }
 
   .md\:block {
