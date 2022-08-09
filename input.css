@@ -349,6 +349,10 @@ form input.error{
     font-size: 20px;
 }
 
+#vis img{
+    display: inline-block;
+}
+
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 

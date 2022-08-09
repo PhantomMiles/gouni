@@ -764,6 +764,10 @@ video {
   flex-direction: column-reverse;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1481,6 +1485,10 @@ form input.error{
   font-size: 20px;
 }
 
+#vis img{
+  display: inline-block;
+}
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 
 .sticky {
@@ -1635,6 +1643,10 @@ h1
     margin-top: -7rem;
   }
 
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .md\:mt-5 {
     margin-top: 1.25rem;
   }
@@ -1661,6 +1673,14 @@ h1
 
   .md\:mr-10 {
     margin-right: 2.5rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:block {
@@ -1707,6 +1727,10 @@ h1
     max-width: 24rem;
   }
 
+  .md\:max-w-lg {
+    max-width: 32rem;
+  }
+
   .md\:max-w-md {
     max-width: 28rem;
   }
@@ -1721,6 +1745,10 @@ h1
 
   .md\:max-w-\[400px\] {
     max-width: 400px;
+  }
+
+  .md\:max-w-full {
+    max-width: 100%;
   }
 
   .md\:flex-row {
@@ -1767,6 +1795,12 @@ h1
     --tw-space-y-reverse: 0;
     margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0px * var(--tw-space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:rounded-br-none {
@@ -1821,6 +1855,11 @@ h1
     padding-right: 7rem;
   }
 
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1834,6 +1873,16 @@ h1
   .md\:px-40 {
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:text-left {
