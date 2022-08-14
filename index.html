@@ -14,65 +14,65 @@
 
 <body>
     <!-- Navbar -->
-    <section id="slide" class="w-full mx-auto py-1/2 flex flex-col px-auto space-y-20 md:space-y-28">
-        <nav class="max-w-full relative container mx-auto py-4 md:py-[1px] px-3" id="myHeader">
+    <nav class="max-w-full relative container mx-auto py-4 md:py-[1px] px-3 bg-white" id="myHeader">
             <!-- Flex container -->
-            <div class="flex items-center justify-between">
-                <!-- Logo -->
-                <div>
-                    <img src="img/logo-white.png" class="h-8 md:h-20 md:p-4" alt="" />
-                </div>
-                <!-- Menu Items -->
-                <div class="hidden space-x-4 md:flex text-sm" id="nav">
-                    <a href="index.html" class="text-white hover:bg-royalBlue font-bold">Home</a>
-                    <a href="events.html" class="text-white hover:bg-royalBlue font-bold">Events</a>
-                    <a href="news.html" class="text-white hover:bg-royalBlue font-bold">News</a>
-                    <a href="about.html" class="text-white hover:bg-royalBlue font-bold">About</a>
-                    <a href="archive.html" class="text-white hover:bg-royalBlue font-bold">Archive</a>
-                    <a href="courses.html" class="text-white hover:bg-royalBlue font-bold">Courses</a>
-                    <a href="forum.html" class="text-white hover:bg-royalBlue font-bold">Forums</a>
-                    <a href="faq.html" class="text-white hover:bg-royalBlue font-bold">FAQs</a>
-                </div>
-                <div class="hidden md:flex md:space-x-1">
-                    <a href="student_dashboard.html" id="profile" class="hidden p-3 px-3 pt-3 md:bg-none text-white text-sm rounded-lg focus:none md:block hover:bg-royalBlue font-bold"><i class="fa fa-user"></i> Your Profile</a>
-                </div>
-                <!-- Button -->
-                <a href="login.php" id="signIn" class="p-3 px-6 pt-3 md:bg-none text-white text-sm hover:bg-royalBlue font-bold rounded-full baseline focus:none sm:block md:block">Log In</a>
-
-                <!-- Hamburger Icon -->
-                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </button>
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div>
+                <img src="img/logo.png" class="h-8 md:h-20 md:p-4" alt="" />
             </div>
-
-            <!-- Mobile Menu -->
-            <div class="md:hidden">
-                <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-5 space-y-2 font-bold bg-sapphireBlue text-white sm:w-25 sm:self-center left-24 right-6 drop-shadow-md rounded-lg">
-                    <a href="student_dashboard.html" class="font-bold">Your Profile</a>
-                    <a href="index.html" class="font-bold">Home</a>
-                    <a href="events.html" class="font-bold">Events</a>
-                    <a href="news.html" class="font-bold">News</a>
-                    <a href="about.html" class="font-bold">About</a>
-                    <a href="archive.html" class="font-bold">Archive</a>
-                    <a href="courses.html" class="font-bold">Courses</a>
-                    <a href="forum.html" class="font-bold">Forums</a>
-                    <a href="faq.html" class="font-bold">FAQs</a>
-
-                </div>
+            <!-- Menu Items -->
+            <div class="hidden space-x-4 md:flex text-sm" id="nav">
+                <a href="index.html" class="hover:text-white hover:bg-royalBlue font-bold">Home</a>
+                <a href="events.html" class="hover:text-white hover:bg-royalBlue font-bold">Events</a>
+                <a href="news.html" class="hover:text-white hover:bg-royalBlue font-bold">News</a>
+                <a href="about.html" class="hover:text-white hover:bg-royalBlue font-bold">About</a>
+                <a href="archive.html" class="hover:text-white hover:bg-royalBlue font-bold">Archive</a>
+                <a href="courses.html" class="hover:text-white hover:bg-royalBlue font-bold">Courses</a>
+                <a href="forum.html" class="hover:text-white hover:bg-royalBlue font-bold">Forums</a>
+                <a href="faq.html" class="hover:text-white hover:bg-royalBlue font-bold">FAQs</a>
             </div>
-        </nav>
-        <div id="t-1" class="text-center py-2 space-y-8">
-            <h1 class="text-6xl text-lightBlue md:text-8xl mt-4">God's Own University</h1>
-            <h5 class="text-xl text-slate-500 md:text-3xl">A University On The Go</h5>
+            <div class="hidden md:flex md:space-x-1">
+                <a href="student_dashboard.html" id="profile" class="hidden p-3 px-3 pt-3 md:bg-none hover:text-white text-sm rounded-lg focus:none md:block hover:bg-royalBlue font-bold"><i class="fa fa-user"></i> Your Profile</a>
+            </div>
+            <!-- Button -->
+            <a href="login.php" id="signIn" class="p-3 px-6 pt-3 md:bg-none hover:text-white text-sm hover:bg-royalBlue font-bold rounded-full baseline focus:none sm:block md:block">Log In</a>
+
+            <!-- Hamburger Icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-5 space-y-2 font-bold bg-sapphireBlue text-white sm:w-25 sm:self-center left-24 right-6 drop-shadow-md rounded-lg">
+                <a href="student_dashboard.html" class="font-bold">Your Profile</a>
+                <a href="index.html" class="font-bold">Home</a>
+                <a href="events.html" class="font-bold">Events</a>
+                <a href="news.html" class="font-bold">News</a>
+                <a href="about.html" class="font-bold">About</a>
+                <a href="archive.html" class="font-bold">Archive</a>
+                <a href="courses.html" class="font-bold">Courses</a>
+                <a href="forum.html" class="font-bold">Forums</a>
+                <a href="faq.html" class="font-bold">FAQs</a>
+
+            </div>
+        </div>
+    </nav>
+    <div id="slide" class="w-full mx-auto py-26 flex flex-col px-auto space-y-20 md:space-y-10">
+        <div id="t-1" class="text-left py-2 px-20 space-y-8">
+            <h1 class="text-6xl text-white md:text-8xl mt-28">God's Own University</h1>
+            <h5 class="text-xl text-white md:text-3xl">A University On The Go</h5>
         </div>
         <div id="tst-1" class="w-[300px] mx-auto h-[380px] md:w-full md:h-[192px] md:flex bg-lightGray rounded-xl p-8 md:rounded-br-none md:rounded-bl-none md:p-0 md:space-y-2 md:block">
             <img class="w-20 h-20 md:w-48 md:h-48 md:rounded-tl-xl md:rounded-tr-none md:rounded-br-none md:rounded-bl-none rounded-full -mt-20 md:mt-0 mx-auto md:mx-0" src="img/Josephine.jpg" alt="" width="384" height="512">
             <div class="pt-4 md:px-8 md:-pt-80 text-center md:text-left space-y-4">
                 <blockquote>
                 <p class=" text-sm md:text-lg text-center md:text-left text-slate-700 font-medium">
-                    “My alma mater; the University on the go! I I’m forever proud of my university and the achievements she has made for herself. I really benefited a lot from the seminar and international interaction with students of the university. I can’t begin to overemphasis the system of teaching there, the values I learnt and the VC’s familiarity with his students and staff.”
+                    “My alma mater; the University on the go! I I'm forever proud of my university and the achievements she has made for herself. I really benefited a lot from the seminar and international interaction with students of the university. I can't begin to overemphasis the system of teaching there, the values I learnt and the VC's familiarity with his students and staff.”
                 </p>
                 </blockquote>
                 <figcaption class="font-medium">
@@ -85,7 +85,7 @@
                 </figcaption>
             </div>
         </div>
-    </section>
+    </div>
     <!-- addmission Section -->
     <section id="admission">
         <!-- Flex Container -->
