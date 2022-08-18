@@ -24,8 +24,7 @@ body {
     transition: all 0.25s;
 }
 
-#menu,
-#nav2 a {
+a {
     text-transform: uppercase;
 }
 
@@ -120,10 +119,10 @@ ul#tel {
 }
 
 #slide{
-    background-image: url('../img/slider1.jpg');
+    background-image: url('../img/slider2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 700px;
     background-attachment: fixed;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.678); 
