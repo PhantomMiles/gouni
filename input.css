@@ -44,6 +44,11 @@ a {
     padding: 6px;
 }
 
+#t-1 h1{
+    font-family: tropikal;
+    font-weight: 900;
+}
+
 button {
     transition: all 0.25s;
 }
