@@ -145,7 +145,7 @@
                                         ?>
                                     </td>
                                     <td>
-                                    <input type="text" name="lname" placeholder="Enter last name" class="<?php if(isset($err_lname)) { echo 'error'; } else{ echo 'correct';} ?>">
+                                        <input type="text" name="lname" placeholder="Enter last name" class="<?php if(isset($err_lname)) { echo 'error'; } else{ echo 'correct';} ?>">
                                         <?php  
                                             if (isset($err_lname)) {
                                                 echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_lname</p>";
@@ -1089,6 +1089,34 @@
                         </fieldset>
                     </div>
                 </div> 
+            </form>
+        </div>
+
+        <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-x-4 md:flex-row md:space-y-40">
+            <form id="reg-frm-p-sm" class="bg-white" action="account2.php" method="post">
+                <div class="container flex flex-col mb-2 space-y-6">
+                    <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
+                        <fieldset>
+                            <legend>Your Personal Information</legend>
+                            <label for=""></label>
+                            
+                            <label for=""></label>
+
+                            <label for=""></label>
+                            
+                            <label for=""></label>
+
+                            <label for=""></label>
+                            
+                            <label for=""></label>
+                            
+                            <label for=""></label>
+                            
+                            <label for=""></label>
+                            
+                        </fieldset>
+                    </div>
+                </div>
             </form>
         </div>
         <div class="flex justify-center">
