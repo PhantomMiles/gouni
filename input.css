@@ -381,6 +381,18 @@ form input.error{
         cursor: none;
     }
 
+    #reg-frm-p {
+    /* width: 650px;
+    padding: 10px 0;
+    box-shadow: 0px 5px 7px black;
+    border-radius: 5px; */
+    display: none;
+    }
+
+    #reg-frm-a{
+        display: none;
+    }
+
     #lgin-frm{
         width: 300px;
         box-shadow: 0px 3px 7px black;

@@ -129,7 +129,7 @@
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <fieldset>
                             <legend>Your Personal Information</legend>
-                            <table cellpadding="3">
+                            <table>
                                 <tr>
                                     <th>First Name</th>
                                     <th>Last Name</th>
