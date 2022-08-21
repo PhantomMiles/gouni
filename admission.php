@@ -283,7 +283,7 @@
                                 </tr>
                                 <tr>
                                     <th>Telephone Number</th>
-                                    <th>Email</th>
+                                    <th>Email Address</th>
                                 </tr>                            
                                 <tr>
                                     <td>
@@ -308,42 +308,41 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            
                                             <select name="nationality" id="" class="<?php if(isset($err_nationality)) { echo 'error'; } else{ echo 'correct';} ?>">
-                                            <option value="">--Select--</option>
-                                            <option value="n1">Afghani</option>
-                                            <option value="n2">Albanian</option>
-                                            <option value="n3">Austrian</option>
-                                            <option value="n4">Australian</option>
-                                            <option value="n5">Bangladese</option>
-                                            <option value="n6">Benin</option>
-                                            <option value="n7">Botswanian</option>
-                                            <option value="n8">Cameroonian</option>
-                                            <option value="n9">Denmark</option>
-                                            <option value="n10">Ecuador</option>
-                                            <option value="n11">Estonian</option>
-                                            <option value="n12">Egyptian</option>
-                                            <option value="n13">Finland</option>
-                                            <option value="n14">French</option>
-                                            <option value="n15">Gabonese</option>
-                                            <option value="n16">Irish</option>
-                                            <option value="n17">Jamaican</option>
-                                            <option value="n18">Laos</option>
-                                            <option value="n19">Nigerien</option>
-                                            <option value="n20">Nigerian</option>
-                                            <option value="n21">Oman</option>
-                                            <option value="n22">Polish</option>
-                                            <option value="n23">Rwandan</option>
-                                            <option value="n24">Spanish</option>
-                                            <option value="n25">Togolese</option>
-                                            <option value="n26">Yugoslavian</option>
-                                            <option value="n27">Zimbabwean</option>
-                                        </select>  
-                                        <?php  
-                                            if (isset($err_nationality)) {
-                                                echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_nationality</p>";
-                                            }
-                                        ?>
+                                                <option value="">--Select--</option>
+                                                <option value="n1">Afghani</option>
+                                                <option value="n2">Albanian</option>
+                                                <option value="n3">Austrian</option>
+                                                <option value="n4">Australian</option>
+                                                <option value="n5">Bangladese</option>
+                                                <option value="n6">Benin</option>
+                                                <option value="n7">Botswanian</option>
+                                                <option value="n8">Cameroonian</option>
+                                                <option value="n9">Denmark</option>
+                                                <option value="n10">Ecuador</option>
+                                                <option value="n11">Estonian</option>
+                                                <option value="n12">Egyptian</option>
+                                                <option value="n13">Finland</option>
+                                                <option value="n14">French</option>
+                                                <option value="n15">Gabonese</option>
+                                                <option value="n16">Irish</option>
+                                                <option value="n17">Jamaican</option>
+                                                <option value="n18">Laos</option>
+                                                <option value="n19">Nigerien</option>
+                                                <option value="n20">Nigerian</option>
+                                                <option value="n21">Oman</option>
+                                                <option value="n22">Polish</option>
+                                                <option value="n23">Rwandan</option>
+                                                <option value="n24">Spanish</option>
+                                                <option value="n25">Togolese</option>
+                                                <option value="n26">Yugoslavian</option>
+                                                <option value="n27">Zimbabwean</option>
+                                            </select>  
+                                            <?php  
+                                                if (isset($err_nationality)) {
+                                                    echo "<p style='color: red; font-family:proxima-nova; font-size: 15px; margin-top: 1px; margin-left: 25px;'>$err_nationality</p>";
+                                                }
+                                            ?>
                                         </td>
                                         <td>
                                             <input type="text" name="nok" placeholder="Enter next of kin" class="<?php if(isset($err_gname)) { echo 'error'; } else{ echo 'correct';} ?>">
@@ -1093,25 +1092,31 @@
         </div>
 
         <div class="container flex flex-col items-center justify-between px-6 py-4 mx-auto space-y-12 md:py-4 md:space-x-4 md:flex-row md:space-y-40">
-            <form id="reg-frm-p-sm" class="bg-white" action="account2.php" method="post">
+            <form id="reg-frm-p-sm" class="block bg-white md:hidden" action="account2.php" method="post">
                 <div class="container flex flex-col mb-2 space-y-6">
                     <div class="flex-col items-center justify-between px-6 py-4 mx-auto space-y-2">
                         <fieldset>
                             <legend>Your Personal Information</legend>
-                            <label for=""></label>
+                            <label for="">First Name</label>
                             
+                            <label for="">Last Name</label>
+
+                            <label for="">Date of Birth</label>
+                            
+                            <label for="">Age</label>
+
+                            <label for="">State of Origin</label>
+                            
+                            <label for="">LGA</label>
+                            
+                            <label for="">Telephone Number</label>
+                            
+                            <label for="">Email Address</label>
+
                             <label for=""></label>
 
                             <label for=""></label>
-                            
-                            <label for=""></label>
 
-                            <label for=""></label>
-                            
-                            <label for=""></label>
-                            
-                            <label for=""></label>
-                            
                             <label for=""></label>
                             
                         </fieldset>
