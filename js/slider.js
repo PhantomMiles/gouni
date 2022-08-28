@@ -20,7 +20,6 @@ const sliders = [
     "./img/slider2.jpg",
     "./img/slider3.jpg",
     "./img/slider4.jpg",
-    "./img/slider5.jpg",
 ]
 
 const slide = document.getElementById('slide');
