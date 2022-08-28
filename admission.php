@@ -1125,7 +1125,7 @@
             </form>
         </div>
         <div class="flex justify-center">
-            <button id="reg-btn" class="p-4 px-16 text-white bg-royalBlue rounded-xl baseline hover:bg-lightSkyBlue sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Submit</button>
+            <button id="reg-btn" class="p-4 px-16 text-white bg-royalBlue rounded-xl baseline sm:hover-none focus:none outline:none text-md text-left font-bold md:mx-auto md:block">Submit</button>
         </div>
     </section>
     <footer class="bg-veryDarkBlue">

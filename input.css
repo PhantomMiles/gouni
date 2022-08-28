@@ -278,6 +278,11 @@ ul#tel {
     color: #191970;
 }
 
+#reg-btn:hover{
+    transition: all 0.4s;
+    background-color: #87CEFA;
+}
+
 form select.error{
 	border: 1px solid red;
 }
