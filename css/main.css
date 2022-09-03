@@ -1057,9 +1057,9 @@ video {
   color: rgb(229 228 226 / var(--tw-text-opacity));
 }
 
-.text-lightSteelBlue {
+.text-steelBlue {
   --tw-text-opacity: 1;
-  color: rgb(176 196 222 / var(--tw-text-opacity));
+  color: rgb(70 130 180 / var(--tw-text-opacity));
 }
 
 .text-silver {
@@ -1114,7 +1114,7 @@ a {
 }
 
 #t-1 h1{
-  font-family: proxima-nova;
+  font-family: proxima nova;
   font-weight: bolder;
 }
 
@@ -1585,6 +1585,16 @@ h1
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-lightSkyBlue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(135 206 250 / var(--tw-text-opacity));
+}
+
+.hover\:text-lightBlue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(173 216 230 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
