@@ -9,6 +9,9 @@ const sliders = [
     "./img/GOU3.jpg",
     "./img/GOU4.jpg",
     "./img/GOU5.jpg",
+    "./img/GOU6.jpg",
+    "./img/GOU7.jpg",
+    "./img/GOU8.jpg",
 ]
 
 const slide = document.getElementById('slide');
