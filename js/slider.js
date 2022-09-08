@@ -5,10 +5,10 @@ const sliders = [
     "./img/slider3.jpg",
     "./img/slider4.jpg",
     "./img/GOU1.jpg",
-    "./img/GOU1.jpg",
-    "./img/GOU1.jpg",
-    "./img/GOU1.jpg",
-    "./img/GOU1.jpg",
+    "./img/GOU2.jpg",
+    "./img/GOU3.jpg",
+    "./img/GOU4.jpg",
+    "./img/GOU5.jpg",
 ]
 
 const slide = document.getElementById('slide');
