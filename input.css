@@ -367,7 +367,7 @@ form input.error{
     background-color: rgba(226, 226, 226, 0.719);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     #signIn{
         border-radius: 50px;
         background: #0096FF;
