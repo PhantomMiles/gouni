@@ -4,6 +4,11 @@ const sliders = [
     "./img/slider2.jpg",
     "./img/slider3.jpg",
     "./img/slider4.jpg",
+    "./img/GOU1.jpg",
+    "./img/GOU1.jpg",
+    "./img/GOU1.jpg",
+    "./img/GOU1.jpg",
+    "./img/GOU1.jpg",
 ]
 
 const slide = document.getElementById('slide');
@@ -12,5 +17,5 @@ setInterval(() => {
     const randomPic = sliders[Math.floor(Math.random() * (sliders.length - 1))] 
     console.log(randomPic)
     slide.style.backgroundImage = `url(${randomPic})`;
-    slide.style.transition = "all 0.4s";
+    slide.style.transition = "linear 0.4s";
 }, 5000);
