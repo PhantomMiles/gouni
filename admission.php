@@ -1172,7 +1172,7 @@
             <div class="flex flex-col justify-between">
                 <form action="info@gouni.edu.ng">
                     <div class="flex space-x-3">
-                        <input type="text" name="" id="" class="flex-1 w-1 px-4 rounded-full focus:outline-none" placeholder="Send us an email"> <button class="px-6 py-2 text-white rounded-full bg-royalBlue hover:bg-blueGray font-bold focus:outline:none">Send</button>
+                        <input type="text" name="" id="" class="flex-1 w-1 px-4 rounded-full focus:outline-none" placeholder="Send us an email"> <button class="px-6 py-2 text-white rounded-full bg-royalBlue hover:bg-midnightBlue font-bold focus:outline:none">Send</button>
                     </div>
                 </form>
                 <div class="hidden text-white md:block md:mt-5"> Contact us on the following lines:</div>
