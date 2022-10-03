@@ -20,5 +20,5 @@ setInterval(() => {
     const randomPic = sliders[Math.floor(Math.random() * (sliders.length - 1))] 
     console.log(randomPic)
     slide.style.backgroundImage = `url(${randomPic})`;
-    slide.style.transition = "linear 0.4s";
+    slide.style.transition = "ease-out 0.4s";
 }, 5000);

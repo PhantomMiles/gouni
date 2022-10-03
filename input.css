@@ -220,6 +220,7 @@ ul#tel {
     width: 100%;
     padding: 1px 20px;
     border: 5px solid #0F52BA;
+    border-radius: 2px;
 }
 #reg-frm-a legend{
     font-family: tajawal;
