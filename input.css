@@ -93,7 +93,7 @@ ul#tel {
     width: 24px;
     height: 4px;
     border-radius: 5px;
-    background: #0096FF;
+    background: #0F52BA;
     transform: rotate(0);
     transition: all 0.5s;
 }
@@ -371,7 +371,7 @@ form input.error{
 @media (max-width: 768px) {
     #signIn{
         border-radius: 50px;
-        background: #0096FF;
+        background: #0F52BA;
         color: white;
     
     }
