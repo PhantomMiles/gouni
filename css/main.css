@@ -629,11 +629,6 @@ video {
   margin-right: 15rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -980,6 +975,16 @@ video {
   padding-right: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1283,14 +1288,14 @@ ul#tel {
 
 #reg-frm-p {
   width: 650px;
-  padding: 10px 0;
+  padding: 10px 5px;
   box-shadow: 0px 5px 7px black;
   border-radius: 5px;
 }
 
 #reg-frm-p fieldset{
   width: 100%;
-  padding: 1px 20px;
+  padding: 1px 20px 15px;
   border: 5px solid #0F52BA;
 }
 
@@ -1302,7 +1307,7 @@ ul#tel {
 }
 
 #reg-frm-p input {
-  width: 250px;
+  width: 230px;
   height: 30px;
   padding: 20px 15px;
   display: inline-block;
@@ -1316,7 +1321,7 @@ ul#tel {
 }
 
 #reg-frm-p select {
-  width: 250px;
+  width: 230px;
   height: 40px;
   padding: 5px 15px;
   display: inline-block;
@@ -1530,6 +1535,113 @@ form input.error{
     color: white;
   }
 
+  #reg-frm-p {
+    width: 530px;
+    padding: 10px 15px;
+    box-shadow: 0px 5px 7px black;
+    border-radius: 5px;
+  }
+
+  #reg-frm-p fieldset {
+    width: 70%;
+    padding: 0px 0px 15px;
+  }
+
+  #reg-frm-p input {
+    width: 230px;
+    height: 30px;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-family: proxima nova;
+  }
+
+  #reg-frm-p select {
+    width: 230px;
+    height: 40px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-family: proxima nova;
+  }
+
+  #reg-frm-a {
+    width: 550px;
+    padding: 5px 0;
+    margin-top: 5px;
+    box-shadow: 0px 5px 7px black;
+    border-radius: 5px;
+  }
+
+  #reg-frm-a fieldset{
+    width: 100%;
+    padding: 1px 15px;
+    border: 5px solid #0F52BA;
+    border-radius: 2px;
+  }
+
+  #reg-frm-a input {
+    width: 150px;
+    height: 30px;
+    padding: 19px 5px;
+    display: inline-block;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-family: proxima nova;
+  }
+
+  #reg-frm-a textarea {
+    width: 150px;
+    height: 35px;
+    padding: 7px 10px;
+    display: inline-block;
+    font-size: 13px;
+    outline: none;
+    resize: none;
+    border: none;
+    margin: 10px 2px;
+    overflow: hidden;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-family: proxima nova;
+  }
+
+  #reg-frm-a select {
+    width: 140px;
+    height: 40px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-family: proxima nova;
+  }
+
+  #reg-frm-a th{
+    font-family: lato;
+    text-align: left;
+    color: #191970;
+  }
+
   #desc .flex.flex-col.items-center {
     margin-top: 20px;
     box-shadow: 0px 7px 5px black;
@@ -1542,16 +1654,10 @@ form input.error{
     cursor: none;
   }
 
-  #reg-frm-p {
-    /* width: 650px;
-    padding: 10px 0;
-    box-shadow: 0px 5px 7px black;
-    border-radius: 5px; */
-    display: none;
-  }
-
-  #reg-frm-a{
-    display: none;
+  #reg-frm-p fieldset{
+    width: 50%;
+    padding: 1px 5px;
+    border: 5px solid #0F52BA;
   }
 
   #lgin-frm{
@@ -1692,11 +1798,6 @@ h1
     margin-right: auto;
   }
 
-  .md\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
   .md\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -1823,10 +1924,10 @@ h1
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-y-40 > :not([hidden]) ~ :not([hidden]) {
@@ -1839,24 +1940,6 @@ h1
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:bg-none {
@@ -1948,13 +2031,13 @@ h1
     line-height: 2.5rem;
   }
 
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
   }
 }
