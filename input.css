@@ -144,14 +144,14 @@ ul#tel {
 }
 
 #reg-frm-p {
-    width: 650px;
+    width: 560px;
     padding: 10px 5px;
     box-shadow: 0px 5px 7px black;
     border-radius: 5px;
 }
 #reg-frm-p fieldset{
     width: 100%;
-    padding: 1px 20px 15px;
+    padding: 1px 15px 15px;
     border: 5px solid #0F52BA;
 }
 #reg-frm-p legend{
@@ -376,14 +376,14 @@ form input.error{
     
     }
     #reg-frm-p {
-        width: 530px;
+        width: 550px;
         padding: 10px 15px;
         box-shadow: 0px 5px 7px black;
         border-radius: 5px;
     }
     #reg-frm-p fieldset {
         width: 70%;
-        padding: 0px 0px 15px;
+        padding: 1px 10px 15px;
     }
     #reg-frm-p input {
         width: 230px;
@@ -442,7 +442,7 @@ form input.error{
         height: 35px;
         padding: 7px 10px;
         display: inline-block;
-        font-size: 13px;
+        font-size: 12px;
         outline: none;
         resize: none;
         border: none;
